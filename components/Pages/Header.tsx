@@ -34,7 +34,7 @@ export default function Header() {
               <a href="#setheader" className="scrollto">
                 <span>
                   {/* Take Over Summit */}
-                <img style={logo1} src="takeove2.png"/>
+                <img style={logo1} src="takeove4.png"/>
 
                 </span>
               </a>
