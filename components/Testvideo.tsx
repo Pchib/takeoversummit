@@ -11,10 +11,29 @@
 //     </div>
 //   );
 // }
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
+import { useMediaQuery } from 'react-responsive';
 
 export default function TestGifLoop() {
-  const gif = 'your-gif.gif'; // Replace with the actual file name of your GIF
+  const [isLaptop, setIsLaptop] = useState(false);
+
+  useEffect(() => {
+    // Set the initial value based on the window width
+    setIsLaptop(window.innerWidth >= 768);
+
+    // Function to update the state based on screen width
+    const updateIsLaptop = () => {
+      setIsLaptop(window.innerWidth >= 768);
+    };
+
+    // Add a resize event listener to update the state when the window is resized
+    window.addEventListener('resize', updateIsLaptop);
+
+    // Clear the event listener when the component unmounts
+    return () => {
+      window.removeEventListener('resize', updateIsLaptop);
+    };
+  }, []);
 
   useEffect(() => {
     const intervalId = setInterval(() => {
@@ -26,14 +45,15 @@ export default function TestGifLoop() {
     return () => clearInterval(intervalId);
   }, []);
 
+  const gif = isLaptop ? 'your-gif3.gif' : 'your-gif.gif';
+
   return (
     <div>
       <img
-        src="your-gif.gif"
+        src={`${gif}`}
         alt="GIF"
         style={{ width: '100%', objectFit: 'cover' }}
       />
     </div>
   );
 }
-
