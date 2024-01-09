@@ -162,6 +162,7 @@ h6 {
   transition: all 0.5s;
   padding: 20px 0;
   position: fixed;
+  overflow: hidden;
   left: 0;
   top: 0;
   right: 0;
@@ -201,7 +202,7 @@ h6 {
 #header .logo img {
   padding: 0;
   margin: 7px 0;
-  max-height: 26px;
+  /* max-height: 26px; */
 }
 
 .main-pages {
