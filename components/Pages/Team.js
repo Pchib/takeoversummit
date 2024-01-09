@@ -3,6 +3,8 @@ import React, { Component } from 'react'
 
 export default class Team extends Component {
     render() {
+      const containerStyle = {
+        display:'inline'    };
         return (
             <div>
                            <section id="team" class="section-bg">
@@ -16,11 +18,11 @@ export default class Team extends Component {
 
           <div class="col-lg-3 col-md-6 wow fadeInUp">
             <div class="member">
-              <img src="assets/img/rv.png" class="img-fluid" alt=""/>
+              <img style={containerStyle} src="assets/img/rv.png" class="img-fluid" alt=""/>
               <div class="member-info">
                 <div class="member-info-content">
                   <h4>Rev Victor Adeyemi</h4>
-                  <span>Senior Pastor, Global Harvest Church, Int’l.</span>
+                  <span>Senior Pastor, GHarvest Church, Int’l.</span>
                   <div class="social">
                     <a href=""><i class="fa fa-twitter"></i></a>
                     <a href=""><i class="fa fa-facebook"></i></a>
@@ -34,7 +36,7 @@ export default class Team extends Component {
 
           <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
             <div class="member">
-              <img src="assets/img/pt.png" class="img-fluid" alt=""/>
+              <img style={containerStyle} src="assets/img/pt.png" class="img-fluid" alt=""/>
               <div class="member-info">
                 <div class="member-info-content">
                   <h4>Phil Thompson</h4>
@@ -53,11 +55,11 @@ Songwriter</span>
 
           <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
             <div class="member">
-              <img src="assets/img/pd.png" class="img-fluid" alt=""/>
+              <img style={containerStyle} src="assets/img/pd.png" class="img-fluid" alt=""/>
               <div class="member-info">
                 <div class="member-info-content">
                   <h4>Pastor Dara </h4>
-                  <span>Lead Pastor, Global Harvest Church
+                  <span>Lead Pastor, GHarvest Church
 Island</span>
                   <div class="social">
                     <a href=""><i class="fa fa-twitter"></i></a>
@@ -72,7 +74,7 @@ Island</span>
 
           <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
             <div class="member">
-              <img src="assets/img/tt.png" class="img-fluid" alt=""/>
+              <img style={containerStyle} src="assets/img/tt.png" class="img-fluid" alt=""/>
               <div class="member-info">
                 <div class="member-info-content">
                   <h4>Crystal Berger</h4>

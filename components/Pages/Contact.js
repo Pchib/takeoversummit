@@ -2,6 +2,7 @@
 import React, { Component } from 'react'
 
 export default class Contact extends Component {
+  
   handleSubmit = (event) => {
     event.preventDefault();
 
@@ -47,9 +48,10 @@ export default class Contact extends Component {
   };
 
   render() {
+  
     return (
-      <div className='bodyform'>
-        <div id="contact">
+      <div id="contact" className='bodyform'>
+        <div >
           <div className="container">
             <div className="row ">
               <div className="ring">

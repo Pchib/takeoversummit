@@ -3,8 +3,9 @@ export default function Header() {
   const containerStyle = {
     backgroundColor: "white",
   }; const logo1 = {
-    width: "200px",
-    height: "200px",
+    width: "100%",
+    margin:'0',
+    maxHeight:'46px'
   };
   return (
     <div className="">
@@ -31,9 +32,12 @@ export default function Header() {
         <div className="container">
           <div className="logo float-left">
             <h1 className="text-light">
-              <a href="#intro" className="scrollto">
-                {/* <img style={logo1} src="takeover.png"/> */}
-                <span>Take Over Summit</span>
+              <a href="#setheader" className="scrollto">
+                <span>
+                  {/* Take Over Summit */}
+                <img style={logo1} src="takeover2.png"/>
+
+                </span>
               </a>
             </h1>
             <a href="#header" className="scrollto">
