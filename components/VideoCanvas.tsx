@@ -8,6 +8,7 @@ export default function VideoCanvas() {
     marginTop: '70px',
   };
   return (
+    
     <div style={containerStyle}>
     
         <Testvideo />
