@@ -5,7 +5,6 @@ export default function Header() {
   }; const logo1 = {
     width: "100%",
     margin:'0',
-    maxHeight:'46px'
   };
   return (
     <div className="">
