@@ -1,11 +1,18 @@
 import React from "react";
+import Link from 'next/link'
 export default function Header() {
   const containerStyle = {
     backgroundColor: "white",
-  }; const logo1 = {
+  }; 
+  const logo1 = {
     width: "100%",
     margin:'0',
+    height:'70px'
   };
+  const toplog = {
+    marginTop:'-20px',
+  };
+  
   return (
     <div className="">
       <header id="header" style={containerStyle}>
@@ -29,12 +36,14 @@ export default function Header() {
         </div>
 
         <div className="container">
+          <div className="row">
+          <div className="col-md-6">
           <div className="logo float-left">
-            <h1 className="text-light">
+            <h1 className="text-light"  style={toplog}>
               <a href="#setheader" className="scrollto">
                 <span>
                   {/* Take Over Summit */}
-                <img style={logo1} src="takeove4.png"/>
+                <img style={logo1} src="takeover1.png"/>
 
                 </span>
               </a>
@@ -44,7 +53,9 @@ export default function Header() {
             </a>
           </div>
 
-          <nav className="main-nav float-right d-none d-lg-block">
+              </div>  
+               <div className="col-md-6">
+               <nav className="main-nav float-right d-none d-lg-block">
             <ul>
               <li className="active">
                 <a href="#setheader">Home</a>
@@ -82,7 +93,10 @@ export default function Header() {
                 <a href="#footers">Contact Us</a>
               </li> */}
             </ul>
-          </nav>
+          </nav>              </div>
+          </div>
+        
+        
         </div>
       </header>
       {/* <section id="intro" className="clearfix">

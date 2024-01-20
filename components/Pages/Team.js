@@ -23,12 +23,12 @@ export default class Team extends Component {
                 <div class="member-info-content">
                   <h4>Rev Victor Adeyemi</h4>
                   <span>Senior Pastor, GHarvest Church, Int’l.</span>
-                  <div class="social">
+                  {/* <div class="social">
                     <a href=""><i class="fa fa-twitter"></i></a>
                     <a href=""><i class="fa fa-facebook"></i></a>
                     <a href=""><i class="fa fa-google-plus"></i></a>
                     <a href=""><i class="fa fa-linkedin"></i></a>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -36,18 +36,17 @@ export default class Team extends Component {
 
           <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
             <div class="member">
-              <img style={containerStyle} src="assets/img/pt.png" class="img-fluid" alt=""/>
+              <img style={containerStyle} src="assets/img/bishop.png" class="img-fluid" alt=""/>
               <div class="member-info">
                 <div class="member-info-content">
-                  <h4>Phil Thompson</h4>
-                  <span>Gospel Music Artist &
-Songwriter</span>
-                  <div class="social">
+                  <h4>Bishop FEB Idahosa</h4>
+                  <span>President, Ben Idahosa University, Benin</span>
+                  {/* <div class="social">
                     <a href=""><i class="fa fa-twitter"></i></a>
                     <a href=""><i class="fa fa-facebook"></i></a>
                     <a href=""><i class="fa fa-google-plus"></i></a>
                     <a href=""><i class="fa fa-linkedin"></i></a>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -58,15 +57,15 @@ Songwriter</span>
               <img style={containerStyle} src="assets/img/pd.png" class="img-fluid" alt=""/>
               <div class="member-info">
                 <div class="member-info-content">
-                  <h4>Pastor Dara </h4>
+                  <h4>Pastor Dare Kolawole </h4>
                   <span>Lead Pastor, GHarvest Church
 Island</span>
-                  <div class="social">
+                  {/* <div class="social">
                     <a href=""><i class="fa fa-twitter"></i></a>
                     <a href=""><i class="fa fa-facebook"></i></a>
                     <a href=""><i class="fa fa-google-plus"></i></a>
                     <a href=""><i class="fa fa-linkedin"></i></a>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -79,18 +78,93 @@ Island</span>
                 <div class="member-info-content">
                   <h4>Crystal Berger</h4>
                   <span>Founder, EBO & Host of the Counter Culture Podcast</span>
-                  <div class="social">
+                  {/* <div class="social">
                     <a href=""><i class="fa fa-twitter"></i></a>
                     <a href=""><i class="fa fa-facebook"></i></a>
                     <a href=""><i class="fa fa-google-plus"></i></a>
                     <a href=""><i class="fa fa-linkedin"></i></a>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
           </div>
 
-        </div>
+        </div>  <div class="row">
+
+<div class="col-lg-3 col-md-6 wow fadeInUp">
+  <div class="member">
+    <img style={containerStyle} src="assets/img/unknow1.png" class="img-fluid" alt=""/>
+    <div class="member-info">
+      <div class="member-info-content">
+        {/* <h4>Rev Victor Adeyemi</h4>
+        <span>Senior Pastor, GHarvest Church, Int’l.</span> */}
+        {/* <div class="social">
+          <a href=""><i class="fa fa-twitter"></i></a>
+          <a href=""><i class="fa fa-facebook"></i></a>
+          <a href=""><i class="fa fa-google-plus"></i></a>
+          <a href=""><i class="fa fa-linkedin"></i></a>
+        </div> */}
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+  <div class="member">
+    <img style={containerStyle} src="assets/img/unknow2.png" class="img-fluid" alt=""/>
+    <div class="member-info">
+      <div class="member-info-content">
+        {/* <h4>Bishop FEB Idahosa</h4>
+        <span>President, Ben Idahosa University, Benin</span> */}
+        {/* <div class="social">
+          <a href=""><i class="fa fa-twitter"></i></a>
+          <a href=""><i class="fa fa-facebook"></i></a>
+          <a href=""><i class="fa fa-google-plus"></i></a>
+          <a href=""><i class="fa fa-linkedin"></i></a>
+        </div> */}
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+  <div class="member">
+    <img style={containerStyle} src="assets/img/unknow3.png" class="img-fluid" alt=""/>
+    <div class="member-info">
+      <div class="member-info-content">
+        {/* <h4>Pastor Dara </h4>
+        <span>Lead Pastor, GHarvest Church
+Island</span> */}
+        {/* <div class="social">
+          <a href=""><i class="fa fa-twitter"></i></a>
+          <a href=""><i class="fa fa-facebook"></i></a>
+          <a href=""><i class="fa fa-google-plus"></i></a>
+          <a href=""><i class="fa fa-linkedin"></i></a>
+        </div> */}
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+  <div class="member">
+    <img style={containerStyle} src="assets/img/unknow4.png" class="img-fluid" alt=""/>
+    <div class="member-info">
+      <div class="member-info-content">
+        {/* <h4>Crystal Berger</h4>
+        <span>Founder, EBO & Host of the Counter Culture Podcast</span> */}
+        {/* <div class="social">
+          <a href=""><i class="fa fa-twitter"></i></a>
+          <a href=""><i class="fa fa-facebook"></i></a>
+          <a href=""><i class="fa fa-google-plus"></i></a>
+          <a href=""><i class="fa fa-linkedin"></i></a>
+        </div> */}
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
 
       </div>
     </section>

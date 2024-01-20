@@ -49,3 +49,46 @@ const AudioListener = () => {
 };
 
 export default AudioListener;
+//  "use client"
+// import React, { useEffect, useRef } from 'react';
+// import io from 'socket.io-client';
+
+// const AudioListener = () => {
+//   const socket = useRef(null);
+//   const audioRef = useRef(new Audio());
+
+//   useEffect(() => {
+//     // Initialize Socket.IO connection
+//     socket.current = io('http://localhost:3001');
+
+//     socket.current.on('connect', () => {
+//       console.log('Socket.IO connection opened');
+//     });
+
+//     socket.current.on('audioData', (data) => {
+//       const audioBlob = new Blob([data], { type: 'audio/wav' });
+//       const audioUrl = URL.createObjectURL(audioBlob);
+
+//       // Play the audio
+//       audioRef.current.src = audioUrl;
+//       audioRef.current.play();
+//     });
+
+//     socket.current.on('disconnect', () => {
+//       console.log('Socket.IO connection closed');
+//     });
+
+//     return () => {
+//       socket.current.disconnect();
+//     };
+//   }, []);
+
+//   return (
+//     <div>
+//       <h2>Listening to Real-Time Audio</h2>
+//       <audio ref={audioRef} controls />
+//     </div>
+//   );
+// };
+
+// export default AudioListener;

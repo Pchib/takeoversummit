@@ -22,6 +22,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/Pages/YouTubePlayer.js", "components/Pages/Contact.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/Pages/YouTubePlayer.js", "components/Pages/Contact.js", "app/live/page.js"],
   "exclude": ["node_modules"]
 }

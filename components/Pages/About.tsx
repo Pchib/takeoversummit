@@ -31,7 +31,7 @@ export default class About extends Component {
 
     <div className="col-lg-5 col-md-6">
       <div className="about-img wow fadeInRight animated animated">
-        <img src="assets/img/about-img.png" alt=""/>
+        <img src="assets/img/Frame48.png" alt=""/>
       </div>
     </div>
     
