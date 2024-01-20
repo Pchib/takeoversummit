@@ -7,7 +7,7 @@ export default function Header() {
   const logo1 = {
     width: "100%",
     margin:'0',
-    height:'70px'
+    height:'70px',
   };
   const toplog = {
     marginTop:'-20px',

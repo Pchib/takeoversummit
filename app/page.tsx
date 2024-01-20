@@ -1,6 +1,7 @@
 'use client'
 import Image from 'next/image'
 import VideoCanvas from '@/components/VideoCanvas'
+import Guestslide from '@/components/Guestslide'
 import About from '@/components/Pages/About'
 import Header from '@/components/Pages/Header'
 import Team from '@/components/Pages/Team'
@@ -43,8 +44,11 @@ export default function Home() {
    
     <Header /> 
     <VideoCanvas/>
+
     <Countdown/>
   <About/>
+  <Guestslide/>
+
   <Team/>
   <Contact/>
   {/* <Listen/> */}
