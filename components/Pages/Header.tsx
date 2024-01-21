@@ -11,7 +11,7 @@ export default function Header() {
   const logo1 = {
     width: "100%",
     margin: '0',
-    height: isMobile ? '7vh' : '13vh', 
+    // height: isMobile ? '7vh' : '13vh', 
     };
 
   const toplog = {
@@ -47,13 +47,10 @@ export default function Header() {
                 <h1 className="text-light" style={toplog}>
                   <a href="#setheader" className="scrollto" aria-label="Go to Home">
                     <span>
-                      <img src="takeover1.png" alt="Take Over Summit Logo" style={logo1} />
+                      <img src="logo11.png" alt="Take Over Summit Logo" style={logo1} />
                     </span>
                   </a>
                 </h1>
-                <a href="#header" className="scrollto">
-                  <img src="assets/img/logo.png" alt="Your Logo Description" className="img-fluid" />
-                </a>
               </div>
             </div>
 
