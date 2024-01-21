@@ -1,16 +1,18 @@
 import React from "react";
 import Link from 'next/link'
+import { useMediaQuery } from 'react-responsive';
 
 export default function Header() {
   const containerStyle = {
     backgroundColor: "white",
   };
+  const isMobile = useMediaQuery({ maxWidth: 767.98 });
 
   const logo1 = {
     width: "100%",
     margin: '0',
-    height: '70px',
-  };
+    height: isMobile ? '7vh' : '13vh', 
+    };
 
   const toplog = {
     marginTop: '-20px',
