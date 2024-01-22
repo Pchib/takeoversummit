@@ -16,7 +16,7 @@ export default class Team extends Component {
 
         <div class="row">
 
-          <div class="col-lg-3 col-md-6 col-sm-6  col-xl-6 wow fadeInUp">
+          <div class="col-lg-3 col-md-6 col-sm-6  wow fadeInUp">
             <div class="member">
               <img style={containerStyle} src="assets/img/rv.png" class="img-fluid" alt=""/>
               <div class="member-info">
@@ -34,7 +34,7 @@ export default class Team extends Component {
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6 col-sm-6  col-xl-6 wow fadeInUp" data-wow-delay="0.1s">
+          <div class="col-lg-3 col-md-6 col-sm-6  wow fadeInUp" data-wow-delay="0.1s">
             <div class="member">
               <img style={containerStyle} src="assets/img/bishop.png" class="img-fluid" alt=""/>
               <div class="member-info">
@@ -52,7 +52,7 @@ export default class Team extends Component {
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6 col-sm-6  col-xl-6 wow fadeInUp" data-wow-delay="0.2s">
+          <div class="col-lg-3 col-md-6 col-sm-6  wow fadeInUp" data-wow-delay="0.2s">
             <div class="member">
               <img style={containerStyle} src="assets/img/pd.png" class="img-fluid" alt=""/>
               <div class="member-info">
@@ -71,7 +71,7 @@ Island</span>
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6 col-sm-6  col-xl-6 wow fadeInUp" data-wow-delay="0.3s">
+          <div class="col-lg-3 col-md-6 col-sm-6  wow fadeInUp" data-wow-delay="0.3s">
             <div class="member">
               <img style={containerStyle} src="assets/img/tt.png" class="img-fluid" alt=""/>
               <div class="member-info">
@@ -92,7 +92,7 @@ Island</span>
         </div>  
         <div class="row">
 
-<div class="col-lg-3 col-md-6 col-sm-6 col-xl-6 wow fadeInUp">
+<div class="col-lg-3 col-md-6 col-sm-6 wow fadeInUp">
   <div class="member">
     <img style={containerStyle} src="assets/img/unknow1.png" class="img-fluid" alt=""/>
     <div class="member-info">
@@ -110,7 +110,7 @@ Island</span>
   </div>
 </div>
 
-<div class="col-lg-3 col-md-6 col-sm-6 col-xl-6 wow fadeInUp" data-wow-delay="0.1s">
+<div class="col-lg-3 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
   <div class="member">
     <img style={containerStyle} src="assets/img/unknow2.png" class="img-fluid" alt=""/>
     <div class="member-info">
@@ -128,7 +128,7 @@ Island</span>
   </div>
 </div>
 
-<div class="col-lg-3 col-md-6 col-sm-6 col-xl-6 wow fadeInUp" data-wow-delay="0.2s">
+<div class="col-lg-3 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.2s">
   <div class="member">
     <img style={containerStyle} src="assets/img/unknow3.png" class="img-fluid" alt=""/>
     <div class="member-info">
@@ -147,7 +147,7 @@ Island</span> */}
   </div>
 </div>
 
-<div class="col-lg-3 col-md-6 col-sm-6 col-xl-6 wow fadeInUp" data-wow-delay="0.3s">
+<div class="col-lg-3 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
   <div class="member">
     <img style={containerStyle} src="assets/img/unknow4.png" class="img-fluid" alt=""/>
     <div class="member-info">
