@@ -36,7 +36,7 @@ export default function TestGifLoop() {
   }, []);
 
   // Use the correct gif based on isMobile value
-  const gif = isMobile ? 'your-gif.gif' : 'your-gif3.gif';
+  const gif = isMobile ? 'takegif2.gif' : 'takegif1.gif';
 
   return (
     <div>
