@@ -80,7 +80,7 @@ const VideoComponent = () => {
 <div className="section-header mt-5">
                     <h3>Podcast</h3>
             <p>
-            Welcome to our exclusive video showcase, a treasure trove of memories from past Take Over Summit events. In this collection, we've curated the best moments, powerful talks, and transformative experiences that have defined the essence of Take Over Summit. 
+            Welcome to our exclusive video showcase, a treasure trove of memories from past Take Over Summit events. In this collection, weve curated the best moments, powerful talks, and transformative experiences that have defined the essence of Take Over Summit. 
             </p>
           </div>    
 

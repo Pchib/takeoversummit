@@ -27,7 +27,7 @@ export default class Pricing extends Component {
           </h4>
           <ul class="list-group">
             <li class="list-group-item">100GB Storage</li>
-            <li class="list-group-item">1,000GB Transfer></li>
+            <li class="list-group-item">1,000GB Transfer</li>
             <li class="list-group-item">24/7 Support System</li>
           </ul>
           <a href="#" class="btn">Choose Plan</a>
