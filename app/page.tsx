@@ -12,6 +12,7 @@ import YouTubePlayer from '@/components/Pages/YouTubePlayer'
 import Listen from '@/components/Pages/Listen'
 import Countdown from '@/components/Pages/Countdown'
 import Contact from '@/components/Pages/Contact.js'
+import Podcast from '@/components/Pages/Podcast.js'
 import Footer from '@/components/Pages/Footer.js'
 import Head from 'next/head';
 // import '../public/assets/css/style'
@@ -23,88 +24,87 @@ import '@/public/assets/lib/ionicons/css/ionicons.min.css'
 // import '@/public/assets/lib/owlcarousel/assets/owl.carousel.min.css'
 import '@/public/assets/lib/lightbox/css/lightbox.min.css'
 import Script from 'next/script'
-import React, { useEffect } from 'react'
+
+import React, { useEffect, useState } from 'react'
 
 
 export default function Home() {
-  // useEffect(() => {
-  //   const loadScripts = () => {
-  //     const script1 = document.createElement('script');
-  //     script1.src = 'https://uicsoft.netlify.app/assets/lib/jquery/jquery.min.js';
-  //     script1.async = true;
-  //     document.body.appendChild(script1);
 
-  //     const script2 = document.createElement('script');
-  //     script2.src = 'https://uicsoft.netlify.app/assets/lib/jquery/jquery-migrate.min.js';
-  //     script2.async = true;
-  //     document.body.appendChild(script2);
+  const [loading, setLoading] = useState(true);
 
-  //     // Add other scripts as needed
-  //   };
+  useEffect(() => {
+    const loadData = async () => {
+      // Simulate loading data, replace this with your actual data fetching logic
+      await new Promise(resolve => setTimeout(resolve, 3000));
 
-  //   loadScripts();
-  // }, []);
-  // useEffect(() => {
-  //   const script = document.createElement('script');
-  //   script.src = 'https://uicsoft.netlify.app/assets/lib/owlcarousel/owl.carousel.min.js';
-  //   script.async = true;
-  //   document.body.appendChild(script);
+      // Set loading to false once data is loaded
+      setLoading(false);
+    };
 
-  //   return () => {
-  //     document.body.removeChild(script);
-  //   };
-  // }, []);
+    loadData();
+  }, []);
   return (
-    <main className="flex min-h-screen flex-col justify-between ">
 
-  <div>
-    <Head>
-        <link rel="stylesheet" href="/assets/css/style.css" />
-      </Head>
-        
-  {/* <Script src='https://uicsoft.netlify.app/assets/lib/jquery/jquery.min.js' strategy="beforeInteractive"/>
-  <Script src="https://uicsoft.netlify.app/assets/lib/jquery/jquery.min.js" strategy="beforeInteractive"/>
-   <Script src="https://uicsoft.netlify.app/assets/lib/jquery/jquery-migrate.min.js" strategy="beforeInteractive"/> */}
-   <Script src='https://uicsoft.netlify.app/assets/lib/jquery/jquery.min.js' strategy="beforeInteractive"/>
+    <div>
+     
+{/* <Script src='https://uicsoft.netlify.app/assets/lib/jquery/jquery.min.js' strategy="beforeInteractive"/>
+<Script src="https://uicsoft.netlify.app/assets/lib/jquery/jquery.min.js" strategy="beforeInteractive"/>
+ <Script src="https://uicsoft.netlify.app/assets/lib/jquery/jquery-migrate.min.js" strategy="beforeInteractive"/> */}
+ <Script src='https://uicsoft.netlify.app/assets/lib/jquery/jquery.min.js' strategy="beforeInteractive"/>
 <Script src="https://uicsoft.netlify.app/assets/lib/jquery/jquery-migrate.min.js" strategy="beforeInteractive"/>
 
-   <Script src="https://uicsoft.netlify.app/assets/lib/bootstrap/js/bootstrap.bundle.min.js" strategy="beforeInteractive"/>
-   <Script src="https://uicsoft.netlify.app/assets/lib/easing/easing.min.js" strategy="beforeInteractive"/>
-   <Script src="https://uicsoft.netlify.app/assets/lib/mobile-nav/mobile-nav.js" strategy="beforeInteractive"/>
-   <Script src="https://uicsoft.netlify.app/assets/lib/wow/wow.min.js" strategy="beforeInteractive"/>
-   <Script src="https://uicsoft.netlify.app/assets/lib/waypoints/waypoints.min.js" strategy="beforeInteractive"/>
-   <Script src="https://uicsoft.netlify.app/assets/lib/counterup/counterup.min.js" strategy="beforeInteractive"/>
-   <Script src="https://uicsoft.netlify.app/assets/lib/owlcarousel/owl.carousel.min.js" strategy="beforeInteractive"/>
-   <Script src="https://uicsoft.netlify.app/assets/lib/isotope/isotope.pkgd.min.js" strategy="beforeInteractive"/>
-   <Script src="https://uicsoft.netlify.app/assets/lib/lightbox/js/lightbox.min.js" strategy="beforeInteractive"/>
-   <Script src="https://uicsoft.netlify.app/assets/js/main.js" strategy="beforeInteractive"/>
+ <Script src="https://uicsoft.netlify.app/assets/lib/bootstrap/js/bootstrap.bundle.min.js" strategy="beforeInteractive"/>
+ <Script src="https://uicsoft.netlify.app/assets/lib/easing/easing.min.js" strategy="beforeInteractive"/>
+ <Script src="https://uicsoft.netlify.app/assets/lib/mobile-nav/mobile-nav.js" strategy="beforeInteractive"/>
+ <Script src="https://uicsoft.netlify.app/assets/lib/wow/wow.min.js" strategy="beforeInteractive"/>
+ <Script src="https://uicsoft.netlify.app/assets/lib/waypoints/waypoints.min.js" strategy="beforeInteractive"/>
+ <Script src="https://uicsoft.netlify.app/assets/lib/counterup/counterup.min.js" strategy="beforeInteractive"/>
+ <Script src="https://uicsoft.netlify.app/assets/lib/owlcarousel/owl.carousel.min.js" strategy="beforeInteractive"/>
+ <Script src="https://uicsoft.netlify.app/assets/lib/isotope/isotope.pkgd.min.js" strategy="beforeInteractive"/>
+ <Script src="https://uicsoft.netlify.app/assets/lib/lightbox/js/lightbox.min.js" strategy="beforeInteractive"/>
+ <Script src="https://uicsoft.netlify.app/assets/js/main.js" strategy="beforeInteractive"/>
+ 
+  {/* <Script src="https://iceblueapp.com/wp-content/uploads/2024/01/main.js" strategy="beforeInteractive"/> */}
+ 
+
+        <div>
+          <main className="flex min-h-screen flex-col justify-between ">
+
+<div>
+  <Head>
+      <link rel="stylesheet" href="/assets/css/style.css" />
+    </Head>
+ 
+  <Header /> 
+
+  <VideoCanvas/>
+  <Testimonial/>
+
+  <Countdown/>
+
+  {/* <Pricing/> */}
+  {/* <Service/> */}
+<About/>
+<Guestslide/>
+
+
+<Team/>
+
+<Contact/>
+{/* <Listen/> */}
+<Podcast/>
+
+<Footer/>
+{/* <Liveaudio/>
+<YouTubePlayer/> */}
+
+     
+</div>
+  </main>
+        </div>
+      
+    </div>
    
-    {/* <Script src="https://iceblueapp.com/wp-content/uploads/2024/01/main.js" strategy="beforeInteractive"/> */}
-   
-    <Header /> 
-
-    <VideoCanvas/>
-    <Testimonial/>
-
-    <Countdown/>
-
-    {/* <Pricing/> */}
-    {/* <Service/> */}
-  <About/>
-  <Guestslide/>
-
-
-  <Team/>
-
-  <Contact/>
-  {/* <Listen/> */}
-
-  <Footer/>
-  {/* <Liveaudio/>
-  <YouTubePlayer/> */}
-  
-       
-  </div>
-    </main>
   )
 };
+
