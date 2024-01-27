@@ -583,17 +583,22 @@ h6 {
 --------------------------------*/
 
 #services {
-  padding: 60px 0 40px 0;
+  /* padding: 60px 0 40px 0; */
 }
 
 #services .box {
-  padding: 30px;
+  /* padding: 30px; */
+padding-top: 20px;
+padding-bottom: 20px;
+padding-left: 10px;
+padding-right: 10px;
+width: 102%;
   position: relative;
   overflow: hidden;
   border-radius: 10px;
   margin: 0 10px 40px 10px;
   background: #fff;
-  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.556);
   transition: all 0.3s ease-in-out;
   text-align: center;
 }
