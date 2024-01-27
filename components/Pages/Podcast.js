@@ -4,17 +4,17 @@ import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
 
 const Container = styled.div`
-  display: flex;
   justify-content: space-between;
   margin: 20px;
 `;
 
 const VideoListContainer = styled.div`
-  width: 35%;
+  width: 100%;
 `;
 
 const VideoPlayerContainer = styled.div`
-  width: 60%;
+  width: 100%;
+  margin-bottom: 50px;
 `;
 
 const VideoThumbnail = styled.div`
@@ -85,19 +85,7 @@ const VideoComponent = () => {
           </div>    
 
           <Container>
-                  <VideoListContainer>
-        {videos.map((video, index) => (
-          <VideoThumbnail key={index} onClick={() => handleVideoClick(video)}>
-          <div stlye={{  bacgroundColor: 'white'
-}}>           <h6>{video.title}</h6>
-<p>{video.lead}</p>
-
-
-          </div>
-          </VideoThumbnail>
-        ))}
-      </VideoListContainer>
-      <VideoPlayerContainer>
+          <VideoPlayerContainer>
         <video
           src={currentVideo ? currentVideo.src : ""}
           style={{ width: "100%" }}
@@ -110,6 +98,19 @@ const VideoComponent = () => {
           <p className="video-lead">{currentVideo ? currentVideo.lead : ""}</p>
         </div>
       </VideoPlayerContainer>
+                  <VideoListContainer>
+        {videos.map((video, index) => (
+          <VideoThumbnail key={index} onClick={() => handleVideoClick(video)}>
+          <div stlye={{  bacgroundColor: 'white'
+}}>           <h6>{video.title}</h6>
+<p>{video.lead}</p>
+
+
+          </div>
+          </VideoThumbnail>
+        ))}
+      </VideoListContainer>
+
     </Container>
 
 </div>
