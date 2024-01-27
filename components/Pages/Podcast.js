@@ -20,7 +20,10 @@ const VideoPlayerContainer = styled.div`
 const VideoThumbnail = styled.div`
   margin-bottom: 10px;
   cursor: pointer;
-  backgroundColor: #ffff;
+  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.556);
+  border-radius: 30px;
+  text-align: center;
+  background-color: #ffff;
   padding: 10px;
   border: 1px solid #ddd;
   &:hover {
@@ -60,7 +63,7 @@ const VideoComponent = () => {
 
   return (
     <div>
-        <div className="blob-container">
+        <div className="blob-container" stlye={{opacity:"40%"}}>
     <div className="blob"></div>
     <div className="blob one"></div>
     <div className="blob two"></div>
@@ -68,10 +71,7 @@ const VideoComponent = () => {
     <div className="blob four"></div>
     <div className="blob five"></div>
     <div className="blob six"></div>
-    <div className="blob seven"></div>
-    <div className="blob eight"></div>
-    <div className="blob nine"></div>
-    <div className="blob ten"></div>
+    
   </div>
 
   <section id='podcast' style={{position: 'relative'}}className='row'> 
@@ -106,7 +106,7 @@ const VideoComponent = () => {
           controlsList="nodownload"
         ></video>
         <div className="panel-body">
-          <h4 className="video-title text-primary">{currentVideo ? currentVideo.title : ""}</h4>
+          <h4 className="video-title text-red">{currentVideo ? currentVideo.title : ""}</h4>
           <p className="video-lead">{currentVideo ? currentVideo.lead : ""}</p>
         </div>
       </VideoPlayerContainer>
