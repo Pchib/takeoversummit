@@ -63,17 +63,7 @@ export default function Home() {
  <Script src="https://uicsoft.netlify.app/assets/lib/isotope/isotope.pkgd.min.js" strategy="beforeInteractive"/>
  <Script src="https://uicsoft.netlify.app/assets/lib/lightbox/js/lightbox.min.js" strategy="beforeInteractive"/>
  <Script src="https://uicsoft.netlify.app/assets/js/main.js" strategy="beforeInteractive"/>
- 
-  {/* <Script src="https://iceblueapp.com/wp-content/uploads/2024/01/main.js" strategy="beforeInteractive"/> */}
- 
-
-        <div>
-          <main className="flex min-h-screen flex-col justify-between ">
-
-<div>
-  <Head>
-      <link rel="stylesheet" href="/assets/css/style.css" />
-      <Script
+ <Script
   strategy="lazyOnload"
   src={`https://www.googletagmanager.com/gtag/js?id=G-57TFB6VG95`}
 />
@@ -88,6 +78,17 @@ export default function Home() {
     });
         `}
 </Script>
+ 
+  {/* <Script src="https://iceblueapp.com/wp-content/uploads/2024/01/main.js" strategy="beforeInteractive"/> */}
+ 
+
+        <div>
+          <main className="flex min-h-screen flex-col justify-between ">
+
+<div>
+  <Head>
+      <link rel="stylesheet" href="/assets/css/style.css" />
+
     </Head>
  
   <Header /> 
