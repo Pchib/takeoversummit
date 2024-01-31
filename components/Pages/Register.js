@@ -1,7 +1,7 @@
 "use client"
 import React, { Component } from 'react';
 
-export default class Contact extends Component {
+export default class Register extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -20,6 +20,29 @@ export default class Contact extends Component {
     var phoneNo = event.target.PhoneNo.value;
     var modeOfParticipation = event.target.ModeOfParticipation.value;
     var summitDiscoveryMethod = event.target.SummitDiscoveryMethod.value;
+
+    fetch('http://localhost:3001/api/sendEmail', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          fullName: event.target.FullName.value,
+          email: event.target.Email.value,
+          phoneNo: event.target.PhoneNo.value,
+          modeOfParticipation: event.target.ModeOfParticipation.value,
+          summitDiscoveryMethod: event.target.SummitDiscoveryMethod.value,
+        }),
+      })
+        .then(response => response.json())
+        .then(data => {
+          console.log('Success:', data);
+          console.log('Form submitted successfully!');
+        })
+        .catch((error) => {
+          console.error('Error:', error);
+          console.log('Error submitting the form. Please try again.');
+        });
 
     const formEle = document.querySelector('form');
     const formDatab = new FormData(formEle);
@@ -54,8 +77,10 @@ export default class Contact extends Component {
     };
 
     return (
-      <div id="contact" className="bodyform">
+      <section  id="register" >
+<div className="bodyform">
         <div>
+       
           <div className="container">
             <div className="row">
               <div className="ring">
@@ -122,6 +147,8 @@ export default class Contact extends Component {
           </div>
         </div>
       </div>
+      </section>
+      
     );
   }
 }

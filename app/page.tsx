@@ -11,7 +11,7 @@ import Pricing from '@/components/Pages/Pricing'
 import YouTubePlayer from '@/components/Pages/YouTubePlayer'
 import Listen from '@/components/Pages/Listen'
 import Countdown from '@/components/Pages/Countdown'
-import Contact from '@/components/Pages/Contact.js'
+import Register from '@/components/Pages/Register.js'
 import Podcast from '@/components/Pages/Podcast.js'
 import Footer from '@/components/Pages/Footer.js'
 import Head from 'next/head';
@@ -73,6 +73,21 @@ export default function Home() {
 <div>
   <Head>
       <link rel="stylesheet" href="/assets/css/style.css" />
+      <Script
+  strategy="lazyOnload"
+  src={`https://www.googletagmanager.com/gtag/js?id=G-57TFB6VG95`}
+/>
+
+<Script id="ga-script" strategy="lazyOnload">
+  {`
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-57TFB6VG95', {
+      page_path: window.location.pathname,
+    });
+        `}
+</Script>
     </Head>
  
   <Header /> 
@@ -90,7 +105,7 @@ export default function Home() {
 
 <Team/>
 
-<Contact/>
+<Register/>
 {/* <Listen/> */}
 <Podcast/>
 

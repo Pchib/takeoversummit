@@ -64,7 +64,7 @@ export default function Header() {
                     <a href="#team" aria-label="Go to Guest">Guest</a>
                   </li>
                   <li>
-                    <a href="#contact" aria-label="Go to Register">Register</a>
+                    <a href="#register" aria-label="Go to Register">Register</a>
                   </li>
                   <li>
                     <a href="#podcast" aria-label="Go to Podcast">Podcast</a>
