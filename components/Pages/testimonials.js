@@ -277,7 +277,7 @@ export default class testimonials extends Component {
                 <div style={styles.content}>
                   <div style={styles.section}>
                     <p>
-                    Given its focus on Christ-centered leadership, Take Over At The Summit significantly impacts the religious sector. Leaders converge to discuss and embody principles that align with Christ's teachings, fostering a generation of religious leaders who lead with integrity and compassion. The event serves as a unique platform for religious leaders to connect and share their experiences.
+                    Given its focus on Christ-centered leadership, Take Over At The Summit significantly impacts the religious sector. Leaders converge to discuss and embody principles that align with Christ teachings, fostering a generation of religious leaders who lead with integrity and compassion. The event serves as a unique platform for religious leaders to connect and share their experiences.
                     </p>
                   </div>
 
