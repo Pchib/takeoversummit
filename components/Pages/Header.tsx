@@ -66,9 +66,13 @@ export default function Header() {
                   <li>
                     <a href="#register" aria-label="Go to Register">Register</a>
                   </li>
-                  <li>
-                    <a href="#podcast" aria-label="Go to Podcast">Podcast</a>
-                  </li>
+            
+                  <li style={{ color:'white'}}className="drop-down"><a href="">Resources</a>
+                                <ul>
+                                <li><a href="#podcast">Videos</a></li>
+                                <li><a href="#">Books</a></li>
+                                </ul>
+                            </li> 
                 </ul>
               </nav>
             </div>

@@ -39,7 +39,7 @@ export default class Team extends Component {
               <img style={containerStyle} src="assets/img/bishop.png" className="img-fluid" alt=""/>
               <div className="member-info">
                 <div className="member-info-content">
-                  <h4>Bishop FEB Idahosa</h4>
+                  <h4>Dr. FEB Idahosa</h4>
                   <span>President, Ben Idahosa University, Benin</span>
                   {/* <div className="social">
                     <a href=""><i className="fa fa-twitter"></i></a>

@@ -46,10 +46,7 @@ export default function Home() {
   return (
 
     <div>
-     
-{/* <Script src='https://uicsoft.netlify.app/assets/lib/jquery/jquery.min.js' strategy="beforeInteractive"/>
-<Script src="https://uicsoft.netlify.app/assets/lib/jquery/jquery.min.js" strategy="beforeInteractive"/>
- <Script src="https://uicsoft.netlify.app/assets/lib/jquery/jquery-migrate.min.js" strategy="beforeInteractive"/> */}
+
  <Script src='https://uicsoft.netlify.app/assets/lib/jquery/jquery.min.js' strategy="beforeInteractive"/>
 <Script src="https://uicsoft.netlify.app/assets/lib/jquery/jquery-migrate.min.js" strategy="beforeInteractive"/>
 
@@ -101,6 +98,8 @@ export default function Home() {
   {/* <Pricing/> */}
   {/* <Service/> */}
 <About/>
+
+
 <Guestslide/>
 
 
