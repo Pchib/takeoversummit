@@ -61,7 +61,7 @@ export default function Header() {
                     <a href="#setheader" aria-label="Go to Home">Home</a>
                   </li>
                   <li>
-                    <a href="#team" aria-label="Go to Guest">Guest</a>
+                    <a href="#team" aria-label="Go to Guest">Faculty </a>
                   </li>
                   <li>
                     <a href="#register" aria-label="Go to Register">Register</a>

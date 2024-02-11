@@ -36,7 +36,7 @@ export default class Team extends Component {
 
           <div className="col-lg-3 col-md-6 col-sm-6  wow fadeInUp" data-wow-delay="0.1s">
             <div className="member">
-              <img style={containerStyle} src="assets/img/bishop.png" className="img-fluid" alt=""/>
+              <img style={containerStyle} src="assets/img/df.png" className="img-fluid" alt=""/>
               <div className="member-info">
                 <div className="member-info-content">
                   <h4>Dr. FEB Idahosa</h4>
