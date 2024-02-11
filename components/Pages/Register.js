@@ -107,27 +107,28 @@ export default class Register extends Component {
                       </div>
                       <div className="inputBx mb-1" style={{ textAlign: 'center' }}>
                         {/* <label htmlFor="ModeOfParticipation">Mode of Participation</label> */}
-                        <select
+                        <select style={{fontSize:"1rem"}}
                           id="ModeOfParticipation"
                           name="ModeOfParticipation"
                           className="inputBx2"
                           required
                         >
-                          <option value="" disabled>Select Mode</option>
-                          <option style={containerStyle} value="physical">Physical Attendance</option>
+                          <option value="" >Preferred Hall Selection.</option>
+                          <option style={containerStyle} value="physical">Main Hall 1</option> <option style={containerStyle} value="physical">Main Hall 2</option>
                           <option style={containerStyle} value="virtual">Virtual Participation</option>
                           <option style={containerStyle} value="other">Other</option>
                         </select>
                       </div>
                       <div className="inputBx mb-1" style={{ textAlign: 'center' }}>
                         {/* <label htmlFor="SummitDiscoveryMethod">Summit Discovery Method</label> */}
-                        <select
+                        <select style={{fontSize:"1rem"}}
                           id="SummitDiscoveryMethod"
                           name="SummitDiscoveryMethod"
                           className="inputBx2"
+                          placeholder="mode"
                           required
                         >
-                          <option value="" disabled>Select Discovery Method</option>
+                          <option  value="" >Where did you hear about us</option>
                           <option style={containerStyle} value="website">Website</option>
                           <option style={containerStyle} value="social_media">Social Media</option>
                           <option style={containerStyle} value="word_of_mouth">Word of Mouth</option>
