@@ -27,13 +27,13 @@ export default function Header() {
               <a href="#" className="twitter">
                 <i className="fa fa-twitter"></i>
               </a>
-              <a href="#" className="facebook">
+              <a href="https://www.facebook.com/profile.php?id=100080508302832" className="facebook">
                 <i className="fa fa-facebook"></i>
               </a>
-              <a href="#" className="linkedin">
+              <a href="https://www.linkedin.com/in/takeover-thesummit-4036bb26a/" className="linkedin">
                 <i className="fa fa-linkedin"></i>
               </a>
-              <a href="#" className="instagram">
+              <a href="https://www.instagram.com/takeoversummit/?igshid=YmMyMTA2M2Y%3D" className="instagram">
                 <i className="fa fa-instagram"></i>
               </a>
             </div>
@@ -45,7 +45,7 @@ export default function Header() {
             <div className="col-md-6">
               <div className="logo float-left">
                 <h1 className="text-light" style={toplog}>
-                  <a href="#setheader" className="scrollto" aria-label="Go to Home">
+                  <a href="/#setheader" className="scrollto" aria-label="Go to Home">
                     <span>
                       <img src="logo11.png" alt="Take Over Summit Logo" style={logo1} />
                     </span>
@@ -58,19 +58,19 @@ export default function Header() {
               <nav className="main-nav float-right d-none d-lg-block" role="navigation">
                 <ul>
                   <li className="active">
-                    <a href="#setheader" aria-label="Go to Home">Home</a>
+                    <a href="/#setheader" aria-label="Go to Home">Home</a>
                   </li>
                   <li>
-                    <a href="#team" aria-label="Go to Guest">Faculty </a>
+                    <a href="/#team" aria-label="Go to Guest">Faculty </a>
                   </li>
                   <li>
-                    <a href="#register" aria-label="Go to Register">Register</a>
+                    <a href="/#register" aria-label="Go to Register">Register</a>
                   </li>
             
                   <li style={{ color:'white'}}className="drop-down"><a href="">Resources</a>
                                 <ul>
-                                <li><a href="#podcast">Videos</a></li>
-                                <li><a href="#">Books</a></li>
+                                <li><a href="/#podcast">Videos</a></li>
+                                <li><a href="/books">Books</a></li>
                                 </ul>
                             </li> 
                 </ul>
