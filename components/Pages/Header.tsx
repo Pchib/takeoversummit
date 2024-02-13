@@ -57,7 +57,7 @@ export default function Header() {
             <div className="col-md-6">
               <nav className="main-nav float-right d-none d-lg-block" role="navigation">
                 <ul>
-                  <li className="active">
+                  <li className="">
                     <a href="/#setheader" aria-label="Go to Home">Home</a>
                   </li>
                   <li>
