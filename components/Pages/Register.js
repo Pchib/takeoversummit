@@ -50,7 +50,7 @@ export default class Register extends Component {
     const formDatab = new FormData(formEle);
 
     fetch(
-      'https://script.google.com/macros/s/AKfycby8536Nyp8W_-QVBqsW4CMB_x4Xyiosjw3dXGL-BuioP-V7__BSnnu1MHX6L3C8o_tt/exec',
+      'https://script.google.com/macros/s/AKfycbyA-JMs64INLVORSqgfRSWwJex5LXnnL2ZR8URhg52MbWoMg09J6kvj9BlfYzCFyodK8g/exec',
       {
         method: 'POST',
         body: formDatab,
