@@ -12,7 +12,11 @@ import Header from '@/components/Pages/Header'
 
 
 
-
+const users = [
+  { username: 'seun', password: 'seun@2024' },
+  { username: 'isaac', password: 'isaac@2024' },
+  // Add more users as needed
+];
 
 
 export default class page extends Component {
@@ -20,8 +24,27 @@ export default class page extends Component {
     super(props);
     this.state = {
       loading: false,
+      isLoggedIn: false,
     };
   }
+
+
+  
+  handleLogin = (event) => {
+    event.preventDefault();
+    const username = event.target.username.value;
+    const password = event.target.password.value;
+
+    // Check if the entered credentials match any user in the database
+    const isValidUser = users.some((user) => user.username === username && user.password === password);
+
+    if (isValidUser) {
+      this.setState({ isLoggedIn: true });
+    } else {
+      alert('Invalid credentials. Please try again.');
+    }
+  };
+
 
   handleSubmit = (event) => {
     event.preventDefault();
@@ -69,6 +92,62 @@ export default class page extends Component {
   };
     
   render() {
+
+        // If user is not logged in, render the login form
+        if (!this.state.isLoggedIn) {
+          return (
+            <div>
+      
+      <Script src='https://uicsoft.netlify.app/assets/lib/jquery/jquery.min.js' strategy="beforeInteractive"/>
+     <Script src="https://uicsoft.netlify.app/assets/lib/jquery/jquery-migrate.min.js" strategy="beforeInteractive"/>
+     
+      <Script src="https://uicsoft.netlify.app/assets/lib/bootstrap/js/bootstrap.bundle.min.js" strategy="beforeInteractive"/>
+      <Script src="https://uicsoft.netlify.app/assets/lib/easing/easing.min.js" strategy="beforeInteractive"/>
+      <Script src="https://uicsoft.netlify.app/assets/lib/mobile-nav/mobile-nav.js" strategy="beforeInteractive"/>
+      <Script src="https://uicsoft.netlify.app/assets/lib/wow/wow.min.js" strategy="beforeInteractive"/>
+      <Script src="https://uicsoft.netlify.app/assets/lib/waypoints/waypoints.min.js" strategy="beforeInteractive"/>
+      <Script src="https://uicsoft.netlify.app/assets/lib/counterup/counterup.min.js" strategy="beforeInteractive"/>
+      <Script src="https://uicsoft.netlify.app/assets/lib/owlcarousel/owl.carousel.min.js" strategy="beforeInteractive"/>
+      <Script src="https://uicsoft.netlify.app/assets/lib/isotope/isotope.pkgd.min.js" strategy="beforeInteractive"/>
+      <Script src="https://uicsoft.netlify.app/assets/lib/lightbox/js/lightbox.min.js" strategy="beforeInteractive"/>
+      <Script src="https://uicsoft.netlify.app/assets/js/main.js" strategy="beforeInteractive"/>
+      <Script
+       strategy="lazyOnload"
+       src={`https://www.googletagmanager.com/gtag/js?id=G-57TFB6VG95`}
+     />
+     
+     <Script id="ga-script" strategy="lazyOnload">
+       {`
+         window.dataLayer = window.dataLayer || [];
+         function gtag(){dataLayer.push(arguments);}
+         gtag('js', new Date());
+         gtag('config', 'G-57TFB6VG95', {
+           page_path: window.location.pathname,
+         });
+             `}
+     </Script>
+      <div style={{marginBottom:"50px"}}>
+      <Header />
+     
+     
+      </div>
+
+              {/* ... (existing script imports) */}
+              <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '50vh' }}>
+          <div>
+            {/* ... (existing script imports) */}
+            <div style={{ width: '90%', textAlign: 'center' }}>
+              <form onSubmit={this.handleLogin}>
+                <input style={{ marginBottom: '30px' }} name="username" type="text" className="form-control" placeholder="Username" />
+                <input style={{ marginBottom: '30px' }} name="password" type="password" className="form-control" placeholder="Password" />
+                <button className="btn btn-primary" type="submit">Login</button>
+              </form>
+            </div>
+          </div>
+        </div>
+            </div>
+          );
+        }
     return (
       <div>
       
