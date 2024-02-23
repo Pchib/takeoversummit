@@ -24,9 +24,6 @@ export default function Header() {
         <div id="topbar">
           <div className="container">
             <div className="social-links">
-              <a href="#" className="twitter">
-                <i className="fa fa-twitter"></i>
-              </a>
               <a href="https://www.facebook.com/profile.php?id=100080508302832" className="facebook">
                 <i className="fa fa-facebook"></i>
               </a>
@@ -70,7 +67,7 @@ export default function Header() {
                   <li style={{ color:'white'}}className="drop-down"><a href="">Resources</a>
                                 <ul>
                                 <li><a href="/#podcast">Videos</a></li>
-                                <li><a href="/books">Books</a></li>
+                                {/* <li><a href="/books">Books</a></li> */}
                                 </ul>
                             </li> 
                 </ul>

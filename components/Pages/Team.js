@@ -11,7 +11,7 @@ export default class Team extends Component {
       <div className="container">
         <div className="section-header">
           <h3>Meet Our Faculty</h3>
-          <p>At Take Over Summit, our facilitators are the driving force behind the transformative experiences we offer. These seasoned leaders and experts bring a wealth of knowledge and insight, shaping the summit into a dynamic platform for growth and inspiration.</p>
+          <p>At Take Over Summit, our faculty are the driving force behind the transformative experiences we offer. These seasoned leaders and experts bring a wealth of knowledge and insight, shaping the summit into a dynamic platform for growth and inspiration.</p>
         </div>
 
         <div className="row">

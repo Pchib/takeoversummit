@@ -35,20 +35,30 @@ const VideoComponent = () => {
   const [videos, setVideos] = useState([]);
   const [currentVideo, setCurrentVideo] = useState(null);
 
+
+
   useEffect(() => {
     // Your video fetching logic here...
 
     // Example videos
     const exampleVideos = [
       {
-        src: "http://dev.gharvestisland.org/wp-content/uploads/2024/01/TakeOver-at-the-Summit-2022-1.mp4",
-        title: "Take Over 1.0",
-        lead: "Inaugural Empowerment Extravaganza",
+        src: "http://dev.gharvestisland.org/wp-content/uploads/2024/02/WhatsApp-Video-2024-02-11-at-22.30.34_485fad40.mp4",
+        title: "Crystal Berger ~ Take Over 2.0",
+        lead: "How to own your space",
+      }, {
+        src: "http://dev.gharvestisland.org/wp-content/uploads/2024/02/aliababa.mp4",
+        title: "Alibaba ~ Take Over 2.0",
+        lead: "Until you make any talent you have a service, nobody will pay for it",
+      }, {
+        src: "http://dev.gharvestisland.org/wp-content/uploads/2024/02/WhatsApp-Video-2024-02-11-at-22.35.40_04471d2c.mp4",
+        title: "Bishop Feb Idahosa ~ Take Over 2.0",
+        lead: "The power of think time",
       },
-      {
-        src: "http://dev.gharvestisland.org/wp-content/uploads/2024/01/Takeover-At-The-Summit-2023.mp4",
-        title: "Take Over 2.0",
-        lead: "Elevated Impact Experience",
+    {
+        src: "http://dev.gharvestisland.org/wp-content/uploads/2024/02/WhatsApp-Video-2024-02-11-at-22.16.15_d72bb47b.mp4",
+        title: "Mrs. Modupe Ehirim ~ Take Over 2.0",
+        lead: "5 Ways of passing values through generation",
       },
       // ... Add more videos
     ];
@@ -83,7 +93,6 @@ const VideoComponent = () => {
             Welcome to our exclusive video showcase, a treasure trove of memories from past Take Over Summit events. In this collection, weve curated the best moments, powerful talks, and transformative experiences that have defined the essence of Take Over Summit. 
             </p>
           </div>    
-
           <Container>
           <VideoPlayerContainer>
         <video
@@ -101,8 +110,9 @@ const VideoComponent = () => {
                   <VideoListContainer>
         {videos.map((video, index) => (
           <VideoThumbnail key={index} onClick={() => handleVideoClick(video)}>
-          <div stlye={{  bacgroundColor: 'white'
-}}>           <h6>{video.title}</h6>
+          <div stlye={{  width:'50%',bacgroundColor: 'white'
+}}>        
+   <h6>{video.title}</h6>
 <p>{video.lead}</p>
 
 
