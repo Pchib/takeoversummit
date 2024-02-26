@@ -21,7 +21,7 @@ export default class Register extends Component {
     var modeOfParticipation = event.target.ModeOfParticipation.value;
     var summitDiscoveryMethod = event.target.SummitDiscoveryMethod.value;
 
-    // fetch('http://localhost:3001/api/sendEmail',
+    // fetch('https://localhost:3001/api/sendEmail',
     fetch('https://takeoverbackend.onrender.com/api/sendEmail',
      {
         method: 'POST',

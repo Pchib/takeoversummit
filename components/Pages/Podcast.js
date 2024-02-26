@@ -43,20 +43,20 @@ const VideoComponent = () => {
     // Example videos
     const exampleVideos = [
       {
-        src: "http://dev.gharvestisland.org/wp-content/uploads/2024/02/WhatsApp-Video-2024-02-11-at-22.30.34_485fad40.mp4",
+        src: "https://dev.gharvestisland.org/wp-content/uploads/2024/02/WhatsApp-Video-2024-02-11-at-22.30.34_485fad40.mp4",
         title: "Crystal Berger ~ Take Over 2.0",
         lead: "How to own your space",
       }, {
-        src: "http://dev.gharvestisland.org/wp-content/uploads/2024/02/aliababa.mp4",
+        src: "https://dev.gharvestisland.org/wp-content/uploads/2024/02/aliababa.mp4",
         title: "Alibaba ~ Take Over 2.0",
         lead: "Until you make any talent you have a service, nobody will pay for it",
       }, {
-        src: "http://dev.gharvestisland.org/wp-content/uploads/2024/02/WhatsApp-Video-2024-02-11-at-22.35.40_04471d2c.mp4",
+        src: "https://dev.gharvestisland.org/wp-content/uploads/2024/02/WhatsApp-Video-2024-02-11-at-22.35.40_04471d2c.mp4",
         title: "Bishop Feb Idahosa ~ Take Over 2.0",
         lead: "The power of think time",
       },
     {
-        src: "http://dev.gharvestisland.org/wp-content/uploads/2024/02/WhatsApp-Video-2024-02-11-at-22.16.15_d72bb47b.mp4",
+        src: "https://dev.gharvestisland.org/wp-content/uploads/2024/02/WhatsApp-Video-2024-02-11-at-22.16.15_d72bb47b.mp4",
         title: "Mrs. Modupe Ehirim ~ Take Over 2.0",
         lead: "5 Ways of passing values through generation",
       },

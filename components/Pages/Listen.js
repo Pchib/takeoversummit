@@ -59,7 +59,7 @@ export default AudioListener;
 
 //   useEffect(() => {
 //     // Initialize Socket.IO connection
-//     socket.current = io('http://localhost:3001');
+//     socket.current = io('https://localhost:3001');
 
 //     socket.current.on('connect', () => {
 //       console.log('Socket.IO connection opened');

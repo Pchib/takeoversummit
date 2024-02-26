@@ -56,7 +56,7 @@ export default class page extends Component {
     var message = event.target.message.value;
     var videolink = event.target.videolink.value;
 
-    // fetch('http://localhost:3001/api/inviteemail',
+    // fetch('https://localhost:3001/api/inviteemail',
     fetch('https://takeoverbackend.onrender.com/api/inviteemail',
      {
         method: 'POST',
