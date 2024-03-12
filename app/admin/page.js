@@ -5,6 +5,8 @@ import '@/public/assets/lib/bootstrap/css/bootstrap.min.css'
 import '@/public/assets/lib/font-awesome/css/font-awesome.min.css'
 import '@/public/assets/lib/animate/animate.min.css'
 import '@/public/assets/lib/ionicons/css/ionicons.min.css'
+import Imageemail from '@/app/admin/imageemail'
+import Twoimageemail from '@/app/admin/twoimageemail'
 // import '@/public/assets/lib/owlcarousel/assets/owl.carousel.min.css'
 import '@/public/assets/lib/lightbox/css/lightbox.min.css'
 import Script from 'next/script'
@@ -55,6 +57,7 @@ export default class page extends Component {
     var header = event.target.header.value;
     var message = event.target.message.value;
     var videolink = event.target.videolink.value;
+    var imageurl = event.target.imageurl.value;
 
     // fetch('https://localhost:3001/api/inviteemail',
     fetch('https://takeoverbackend.onrender.com/api/inviteemail',
@@ -66,7 +69,8 @@ export default class page extends Component {
         body: JSON.stringify({
       header,
       message,
-      videolink
+      videolink,
+      imageurl
         }),
       })
         .then(response => response.json())
@@ -196,6 +200,9 @@ export default class page extends Component {
                                          </div>
                                          <div className="col-md-6 col-sm-12 wow fadeIn" data-wow-delay="0.3s">
                                              <input name="videolink" type="text" className="form-control" id="email" placeholder="Videolink"/>
+                                         </div> 
+                                           <div className="col-md-6 col-sm-12 wow fadeIn" data-wow-delay="0.3s">
+                                             <input name="imageurl" type="text" className="form-control" id="imageurl" placeholder="imageurl"/>
                                          </div>
                                          <div className="col-md-12 col-sm-12 wow fadeIn" data-wow-delay="0.9s">
                                              <textarea name="message" rows="5" className="form-control" id="message"
@@ -212,6 +219,9 @@ export default class page extends Component {
                              </div>
                          </div>
                  </div>
+                 <Imageemail/>
+                 <Twoimageemail/>
+                 
            </div>    )
   }
 }

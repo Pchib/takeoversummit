@@ -71,27 +71,23 @@ Island</span>
             </div>
           </div>
 
-          <div className="col-lg-3 col-md-6 col-sm-6  wow fadeInUp" data-wow-delay="0.3s">
+          {/* <div className="col-lg-3 col-md-6 col-sm-6  wow fadeInUp" data-wow-delay="0.3s">
             <div className="member">
               <img style={containerStyle} src="assets/img/tt.png" className="img-fluid" alt=""/>
               <div className="member-info">
                 <div className="member-info-content">
                   <h4>Crystal Berger</h4>
                   <span>Founder, EBO & Host of the Counter Culture Podcast</span>
-                  {/* <div className="social">
+                  <div className="social">
                     <a href=""><i className="fa fa-twitter"></i></a>
                     <a href=""><i className="fa fa-facebook"></i></a>
                     <a href=""><i className="fa fa-google-plus"></i></a>
                     <a href=""><i className="fa fa-linkedin"></i></a>
-                  </div> */}
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-
-        </div>  
-        <div className="row">
-
+          </div> */}
 <div className="col-lg-3 col-md-6 col-sm-6 wow fadeInUp">
   <div className="member">
     <img style={containerStyle} src="assets/img/mme.png" className="img-fluid" alt=""/>
@@ -110,6 +106,10 @@ The Right-Fit Marriage Academy</span>
     </div>
   </div>
 </div>
+        </div>  
+        <div className="row">
+
+
 
 <div className="col-lg-3 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
   <div className="member">
@@ -165,6 +165,23 @@ The Right-Fit Marriage Academy</span>
   </div>
 </div>
 
+<div className="col-lg-3 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.2s">
+  <div className="member">
+    <img style={containerStyle} src="assets/img/unknow3.png" className="img-fluid" alt=""/>
+    <div className="member-info">
+      <div className="member-info-content">
+        {/* <h4>William Uche MBA </h4>
+        <span>Actor, producer, model, entrepreneur, comedian, and social media influencer</span>  */}
+        {/* <div className="social">
+          <a href=""><i className="fa fa-twitter"></i></a>
+          <a href=""><i className="fa fa-facebook"></i></a>
+          <a href=""><i className="fa fa-google-plus"></i></a>
+          <a href=""><i className="fa fa-linkedin"></i></a>
+      </div>*/}
+      </div>
+    </div>
+  </div>
+</div>
 </div>
 
       </div>

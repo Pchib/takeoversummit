@@ -59,7 +59,7 @@ export default class Register extends Component {
       .then((res) => res.json())
       .then((data) => {
         console.log(data);
-        alert('Form submitted successfully!');
+        alert('Registration successfully!');
       })
       .catch((error) => {
         console.log(error);
@@ -131,6 +131,7 @@ export default class Register extends Component {
                           <option  value="" >Where did you hear about us</option>
                           <option style={containerStyle} value="website">Website</option>
                           <option style={containerStyle} value="social_media">Social Media</option>
+                          <option style={containerStyle} value="Email">Email</option>
                           <option style={containerStyle} value="word_of_mouth">Word of Mouth</option>
                           <option style={containerStyle} value="other">Other</option>
                         </select>
