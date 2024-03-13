@@ -363,7 +363,7 @@ export default class testimonials extends Component {
                       data-toggle="modal"
                       data-target=".bd-example-modal-ed"
                     >
-                     <div class="icon" style={{background:"#eafde7"}}><i class="ion-ios-speedometer-outline" style={{color: "#41cf2e"}}></i>
+                     <div class="icon" ><i><img src="assets/ed.png"/></i>
                       </div>
                       <h4 className="title">
                         <a>
@@ -395,7 +395,7 @@ export default class testimonials extends Component {
                   data-toggle="modal"
                   data-target=".bd-example-modal-bu"
                 >
-                   <div class="icon" style={{background:"#e6fdfc"}}><i class="ion-ios-paper-outline" style={{color: "#3fcdc7"}}></i>
+                   <div class="icon" ><i ><i><img src="assets/Bu.png"/></i></i>
                     </div>
                     <h4 className="title">
                       <a>
@@ -427,7 +427,7 @@ export default class testimonials extends Component {
                   data-toggle="modal"
                   data-target=".bd-example-modal-en"
                 >
-                <div class="icon" style={{background: "#e1eeff"}}><i class="ion-ios-world-outline" style={{color: "#2282ff"}}></i>
+                <div class="icon"><i><img src="assets/En.png"/></i>
                     </div>
                     <h4 className="title">
                       <a>Entertainment </a><br></br>
@@ -458,7 +458,7 @@ export default class testimonials extends Component {
                   data-target=".bd-example-modal-po"
                 >
                    
-              <div class="icon" style={{background: "#ecebff"}}><i class="ion-ios-clock-outline" style={{color: "#8660fe"}}></i>
+              <div class="icon" ><i><img src="assets/Po.png"/></i>
                     </div>
                     <h4 className="title">
                       <a>Politics</a><br></br>
@@ -489,7 +489,7 @@ export default class testimonials extends Component {
                   data-target=".bd-example-modal-re"
                 >
                   
-              <div class="icon" style={{background:"#fff0da"}}><i class="ion-ios-bookmarks-outline" style={{color: "#e98e06"}}></i>
+              <div class="icon" ><i><img src="assets/re.png"/></i>
                     </div>
                     <h4 className="title">
                       <a>Religion</a><br></br>
@@ -520,7 +520,7 @@ export default class testimonials extends Component {
                       data-toggle="modal"
                       data-target=".bd-example-modal-fa"
                     >
-                    <div class="icon" style={{background:"#fceef3"}}><i class="ion-ios-analytics-outline" style={{color: "#ff689b"}}></i>
+                    <div class="icon" ><i><img src="assets/fa.png"/></i>
                     </div>
                     <h4 className="title">
                       <a>Family</a><br></br>
@@ -550,7 +550,7 @@ export default class testimonials extends Component {
                   data-toggle="modal"
                   data-target=".bd-example-modal-me"
                 >
-                <div class="icon" style={{background:"#eafde7"}}><i class="i-ion:bulb-outline w-1em h-1em" style={{color: "#41cf2e"}}></i>
+                <div class="icon" ><i><img src="assets/me.png"/></i>
                     </div>
                     <h4 className="title">
                       <a>
