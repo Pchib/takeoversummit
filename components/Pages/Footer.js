@@ -13,7 +13,7 @@ export default function Footer() {
                 <div class="col-sm-6">
                   <div class="footer-info">
                     <h3>TakeOver At The Summit</h3>
-                    <p>Where Leaders Are Born<br></br>For three impactful years, Take Over Summit has been a beacon of inspiration, uniting leaders across Education, Media, Technology, Family, Entertainment, Religion, and Politics. Our mission is clear: to ignite the ambitions of young leaders and cultivate a succession generation whose principles align with the life and teachings of Christ.</p>
+                    <p>Where Leaders Are Born<br></br>For three impactful years, TakeOver at the Summit has been a beacon of inspiration, uniting leaders across Education, Media, Technology, Family, Entertainment, Religion, and Politics. Our mission is clear: to ignite the ambitions of young leaders and cultivate a succession generation whose principles align with the life and teachings of Christ.</p>
                   </div>
                   <div class="social-links">
                     <a href="https://www.facebook.com/profile.php?id=100080508302832" class="facebook"><i class="fa fa-facebook"></i></a>

@@ -34,42 +34,30 @@ export default class Team extends Component {
             </div>
           </div>
 
-          <div className="col-lg-3 col-md-6 col-sm-6  wow fadeInUp" data-wow-delay="0.1s">
-            <div className="member">
-              <img style={containerStyle} src="assets/img/df.png" className="img-fluid" alt=""/>
-              <div className="member-info">
-                <div className="member-info-content">
-                  <h4>Dr. FEB Idahosa</h4>
-                  <span>President, Ben Idahosa University, Benin</span>
-                  {/* <div className="social">
-                    <a href=""><i className="fa fa-twitter"></i></a>
-                    <a href=""><i className="fa fa-facebook"></i></a>
-                    <a href=""><i className="fa fa-google-plus"></i></a>
-                    <a href=""><i className="fa fa-linkedin"></i></a>
-                  </div> */}
-                </div>
-              </div>
-            </div>
-          </div>
 
-          <div className="col-lg-3 col-md-6 col-sm-6  wow fadeInUp" data-wow-delay="0.2s">
-            <div className="member">
-              <img style={containerStyle} src="assets/img/pd.png" className="img-fluid" alt=""/>
-              <div className="member-info">
-                <div className="member-info-content">
-                  <h4>Pastor Dare Kolawole </h4>
-                  <span>Lead Pastor, GHarvest Church
-Island</span>
-                  {/* <div className="social">
-                    <a href=""><i className="fa fa-twitter"></i></a>
-                    <a href=""><i className="fa fa-facebook"></i></a>
-                    <a href=""><i className="fa fa-google-plus"></i></a>
-                    <a href=""><i className="fa fa-linkedin"></i></a>
-                  </div> */}
-                </div>
-              </div>
-            </div>
-          </div>
+          <div className="col-lg-3 col-md-6 col-sm-6 wow fadeInUp">
+  <div className="member">
+    <img style={containerStyle} src="assets/img/me.png" className="img-fluid" alt=""/>
+    <div className="member-info">
+      <div className="member-info-content">
+        <h4>Mrs. Modupe Ehirim</h4>
+        <span>Founder/Lead Counsellor
+The Right-Fit Marriage Academy</span>
+        {/* <div className="social">
+          <a href=""><i className="fa fa-twitter"></i></a>
+          <a href=""><i className="fa fa-facebook"></i></a>
+          <a href=""><i className="fa fa-google-plus"></i></a>
+          <a href=""><i className="fa fa-linkedin"></i></a>
+        </div> */}
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
 
           {/* <div className="col-lg-3 col-md-6 col-sm-6  wow fadeInUp" data-wow-delay="0.3s">
             <div className="member">
@@ -88,29 +76,6 @@ Island</span>
               </div>
             </div>
           </div> */}
-<div className="col-lg-3 col-md-6 col-sm-6 wow fadeInUp">
-  <div className="member">
-    <img style={containerStyle} src="assets/img/mme.png" className="img-fluid" alt=""/>
-    <div className="member-info">
-      <div className="member-info-content">
-        <h4>Mrs. Modupe Ehirim</h4>
-        <span>Founder/Lead Counsellor
-The Right-Fit Marriage Academy</span>
-        {/* <div className="social">
-          <a href=""><i className="fa fa-twitter"></i></a>
-          <a href=""><i className="fa fa-facebook"></i></a>
-          <a href=""><i className="fa fa-google-plus"></i></a>
-          <a href=""><i className="fa fa-linkedin"></i></a>
-        </div> */}
-      </div>
-    </div>
-  </div>
-</div>
-        </div>  
-        <div className="row">
-
-
-
 <div className="col-lg-3 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
   <div className="member">
     <img style={containerStyle} src="assets/img/wum.png" className="img-fluid" alt=""/>
@@ -128,6 +93,66 @@ The Right-Fit Marriage Academy</span>
     </div>
   </div>
 </div>
+
+<div className="col-lg-3 col-md-6 col-sm-6  wow fadeInUp" data-wow-delay="0.1s">
+            <div className="member">
+              <img style={containerStyle} src="assets/img/no.png" className="img-fluid" alt=""/>
+              <div className="member-info">
+                <div className="member-info-content">
+                <h4>Nneka Okekearu</h4>
+                  <span>Director - Enterprise Development Centre, Pan-Atlantic University
+Lagos State, Nigeria ·</span>
+                  {/* <div className="social">
+                    <a href=""><i className="fa fa-twitter"></i></a>
+                    <a href=""><i className="fa fa-facebook"></i></a>
+                    <a href=""><i className="fa fa-google-plus"></i></a>
+                    <a href=""><i className="fa fa-linkedin"></i></a>
+                  </div> */}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>  
+        <div className="row">
+
+        <div className="col-lg-3 col-md-6 col-sm-6  wow fadeInUp" data-wow-delay="0.1s">
+            <div className="member">
+              <img style={containerStyle} src="assets/img/df.png" className="img-fluid" alt=""/>
+              <div className="member-info">
+                <div className="member-info-content">
+                  <h4>Dr. FEB Idahosa</h4>
+                  <span>President, Ben Idahosa University, Benin</span>
+                  {/* <div className="social">
+                    <a href=""><i className="fa fa-twitter"></i></a>
+                    <a href=""><i className="fa fa-facebook"></i></a>
+                    <a href=""><i className="fa fa-google-plus"></i></a>
+                    <a href=""><i className="fa fa-linkedin"></i></a>
+                  </div> */}
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        <div className="col-lg-3 col-md-6 col-sm-6  wow fadeInUp" data-wow-delay="0.2s">
+            <div className="member">
+              <img style={containerStyle} src="assets/img/pd.png" className="img-fluid" alt=""/>
+              <div className="member-info">
+                <div className="member-info-content">
+                  <h4>Pastor Dare Kolawole </h4>
+                  <span>Lead Pastor, GHarvest Church
+Island</span>
+                  {/* <div className="social">
+                    <a href=""><i className="fa fa-twitter"></i></a>
+                    <a href=""><i className="fa fa-facebook"></i></a>
+                    <a href=""><i className="fa fa-google-plus"></i></a>
+                    <a href=""><i className="fa fa-linkedin"></i></a>
+                  </div> */}
+                </div>
+              </div>
+            </div>
+          </div>
+
 
 <div className="col-lg-3 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.2s">
   <div className="member">
@@ -165,23 +190,6 @@ The Right-Fit Marriage Academy</span>
   </div>
 </div>
 
-<div className="col-lg-3 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.2s">
-  <div className="member">
-    <img style={containerStyle} src="assets/img/unknow3.png" className="img-fluid" alt=""/>
-    <div className="member-info">
-      <div className="member-info-content">
-        {/* <h4>William Uche MBA </h4>
-        <span>Actor, producer, model, entrepreneur, comedian, and social media influencer</span>  */}
-        {/* <div className="social">
-          <a href=""><i className="fa fa-twitter"></i></a>
-          <a href=""><i className="fa fa-facebook"></i></a>
-          <a href=""><i className="fa fa-google-plus"></i></a>
-          <a href=""><i className="fa fa-linkedin"></i></a>
-      </div>*/}
-      </div>
-    </div>
-  </div>
-</div>
 </div>
 
       </div>
