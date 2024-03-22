@@ -134,7 +134,24 @@ Lagos State, Nigeria ·</span>
           </div>
 
 
-        <div className="col-lg-3 col-md-6 col-sm-6  wow fadeInUp" data-wow-delay="0.2s">
+          <div className="col-lg-3 col-md-6 col-sm-6  wow fadeInUp" data-wow-delay="0.2s">
+            <div className="member">
+              <img style={containerStyle} src="assets/img/am.png" className="img-fluid" alt=""/>
+              <div className="member-info">
+                <div className="member-info-content">
+                  <h4>Ayo Mairo-Ese</h4>
+                  <span>Compere, Broadcaster, Public Speaker and Mentor</span>
+                  {/* <div className="social">
+                    <a href=""><i className="fa fa-twitter"></i></a>
+                    <a href=""><i className="fa fa-facebook"></i></a>
+                    <a href=""><i className="fa fa-google-plus"></i></a>
+                    <a href=""><i className="fa fa-linkedin"></i></a>
+                  </div> */}
+                </div>
+              </div>
+            </div>
+          </div>  
+          <div className="col-lg-3 col-md-6 col-sm-6  wow fadeInUp" data-wow-delay="0.2s">
             <div className="member">
               <img style={containerStyle} src="assets/img/pd.png" className="img-fluid" alt=""/>
               <div className="member-info">
@@ -151,7 +168,10 @@ Island</span>
                 </div>
               </div>
             </div>
-          </div>
+          </div>  
+          
+          
+          
 
 
 <div className="col-lg-3 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.2s">
@@ -172,23 +192,6 @@ Island</span>
   </div>
 </div>
 
-<div className="col-lg-3 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
-  <div className="member">
-    <img style={containerStyle} src="assets/img/unknow4.png" className="img-fluid" alt=""/>
-    <div className="member-info">
-      <div className="member-info-content">
-        {/* <h4>Crystal Berger</h4>
-        <span>Founder, EBO & Host of the Counter Culture Podcast</span> */}
-        {/* <div className="social">
-          <a href=""><i className="fa fa-twitter"></i></a>
-          <a href=""><i className="fa fa-facebook"></i></a>
-          <a href=""><i className="fa fa-google-plus"></i></a>
-          <a href=""><i className="fa fa-linkedin"></i></a>
-        </div> */}
-      </div>
-    </div>
-  </div>
-</div>
 
 </div>
 
