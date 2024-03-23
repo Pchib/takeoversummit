@@ -81,7 +81,7 @@ The Right-Fit Marriage Academy</span>
     <img style={containerStyle} src="assets/img/wum.png" className="img-fluid" alt=""/>
     <div className="member-info">
       <div className="member-info-content">
-      <h4>William Uche MBA </h4>
+      <h4>Williams Uchemba </h4>
         <span>Actor, producer, model, entrepreneur, comedian, and social media influencer</span> 
         {/* <div className="social">
           <a href=""><i className="fa fa-twitter"></i></a>

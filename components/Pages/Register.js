@@ -90,8 +90,12 @@ export default class Register extends Component {
                 <i style={{ '--clr': '#ff0057' }}></i>
                 <i style={{ '--clr': '#fffd44' }}></i>
                 <div className="login">
-                  <h2>Register</h2>
-                  <div>
+                  <h2 style={{color:"white"}}>Register</h2>
+                  <div className='row'>          
+                            <div className=''>
+                  {/* <img src='assets/kc.png'/> */}
+                  </div>
+                  <div className=''>
                     <form className="form" onSubmit={this.handleSubmit}>
                       <div className="inputBx mb-1" style={{ textAlign: 'center' }}>
                         {/* <label htmlFor="FullName">Full Name</label> */}
@@ -145,6 +149,8 @@ export default class Register extends Component {
                       </div>
                     </form>
                   </div>
+                  </div>
+
                 </div>
               </div>
             </div>
