@@ -48,7 +48,7 @@ const VideoComponent = () => {
         lead: "How to own your space",
       }, {
         src: "https://dev.gharvestisland.org/wp-content/uploads/2024/02/aliababa.mp4",
-        title: "Alibaba ~ Take Over 3.0",
+        title: "Alibaba Akpobome (Ali Baba) ~ Take Over 3.0",
         lead: "Until you make any talent you have a service, nobody will pay for it",
       }, {
         src: "https://dev.gharvestisland.org/wp-content/uploads/2024/02/WhatsApp-Video-2024-02-11-at-22.35.40_04471d2c.mp4",
@@ -90,7 +90,7 @@ const VideoComponent = () => {
 <div className="section-header mt-5">
                     <h3>Podcast</h3>
             <p>
-            Welcome to our exclusive video showcase, a treasure trove of memories from past TakeOver at the Summit events. In this collection, weve curated the best moments, powerful talks, and transformative experiences that have defined the essence of TakeOver at the Summit. 
+            Welcome to our exclusive video showcase, a treasure trove of memories from past TakeOver at the Summit events. In this collection, we've curated the best moments, powerful talks, and transformative experiences that have defined the essence of TakeOver at the Summit. 
             </p>
           </div>    
           <Container>

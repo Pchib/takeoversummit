@@ -77,68 +77,104 @@ export default class Register extends Component {
       color: 'white',
       transition: 'color 0.3s',
     };
+    const inputStyle = {
+      // width:'40%',
+      // marginLeft:'300px',
+     };  
+     const labelStyle = {
+      // color:'white',
+      // marginTop:'15px',
+     };
+     const Style = {
+      // color:'white',
+      // marginTop:'15px',
+     };
 
+    
     return (
       <section  id="register" >
 <div className="bodyform">
         <div>
        
           <div className="container">
-            <div className="row">
-              <div className="ring">
+            <div className="">
+              <div className="ring" >
                 <i style={{ '--clr': '#00ff0a' }}></i>
                 <i style={{ '--clr': '#ff0057' }}></i>
                 <i style={{ '--clr': '#fffd44' }}></i>
-                <div className="login">
-                  <h2 style={{color:"white"}}>Register</h2>
-                  <div className='row'>          
+                <div className="login" style={{display:'flex', flexDirection: "column", width:'70%', alignItems:'center', justifyContent : 'center', marginLeft:'15%'}}>
+                  <h2 style={{color:"white", textAlign:"center"}}>Register</h2>
+                  <div className=''>          
                             <div className=''>
                   {/* <img src='assets/kc.png'/> */}
                   </div>
                   <div className=''>
                     <form className="form" onSubmit={this.handleSubmit}>
                       <div className="inputBx mb-1" style={{ textAlign: 'center' }}>
-                        {/* <label htmlFor="FullName">Full Name</label> */}
-                        <input type="text" id="FullName" name="FullName" placeholder="Full Name" required />
+                        <div className='' style={{display:'flex', flexDirection:'row', justifyContent:'center'}}>
+                        {/* <div className=''>
+                        <label style={labelStyle} htmlFor="FullName">Name</label>
+                        </div> */}
+                        <input style={inputStyle} type="text" id="FullName" name="FullName" placeholder="Full Name" required />
+                        </div>
                       </div>
                       <div className="inputBx mb-1" style={{ textAlign: 'center' }}>
-                        {/* <label htmlFor="Email">Email</label> */}
-                        <input type="email" id="Email" name="Email" placeholder="Email" required />
+                      <div className='' style={{display:'flex', flexDirection:'row',justifyContent:'center'}}>
+                      {/* <div> 
+                         <label style={{color:'white', marginTop:'15px', marginRight: ''}} htmlFor="Email">Email</label>
+                      </div> */}
+                      
+                        <input style={inputStyle} type="email" id="Email" name="Email" placeholder="Email" required />
+                        </div>
+                      </div>
+                    
+                      <div className="inputBx mb-1"  style={{ textAlign: 'center' }}>
+
+<div style={{display:'flex', flexDirection:'row',justifyContent:'center'}}>
+{/*                       
+                        <div style={labelStyle}>       
+                        
+                        <label htmlFor="PhoneNo">Phone No.</label>
+                        </div> */}
+                        <input style={inputStyle} type="tel" id="PhoneNo" name="PhoneNo" placeholder="Phone No." required />
+                        </div>
                       </div>
                       <div className="inputBx mb-1" style={{ textAlign: 'center' }}>
-                        {/* <label htmlFor="PhoneNo">Phone No.</label> */}
-                        <input type="tel" id="PhoneNo" name="PhoneNo" placeholder="Phone No." required />
-                      </div>
-                      <div className="inputBx mb-1" style={{ textAlign: 'center' }}>
-                        {/* <label htmlFor="ModeOfParticipation">Mode of Participation</label> */}
-                        <select style={{fontSize:"1rem"}}
+
+<div>
+  
+                          {/* <label htmlFor="ModeOfParticipation">Mode of Participation</label> */}
+
+
+                        <select style={inputStyle}
                           id="ModeOfParticipation"
                           name="ModeOfParticipation"
                           className="inputBx2"
                           required
+                          
                         >
                           <option value="" >Preferred Hall Selection.</option>
                           <option style={containerStyle} value="physical">Physical</option> 
-                          <option style={containerStyle} value="virtual">Virtual Participation</option>
-                          <option style={containerStyle} value="other">Other</option>
+                          <option style={containerStyle} value="virtual">Virtual </option>
                         </select>
                       </div>
                       <div className="inputBx mb-1" style={{ textAlign: 'center' }}>
                         {/* <label htmlFor="SummitDiscoveryMethod">Summit Discovery Method</label> */}
-                        <select style={{fontSize:"1rem"}}
+                        <select style={inputStyle}
                           id="SummitDiscoveryMethod"
                           name="SummitDiscoveryMethod"
                           className="inputBx2"
                           placeholder="mode"
                           required
                         >
-                          <option  value="" >Where did you hear about us</option>
+                          <option  value="" >How Did You Hear About Us</option>
                           <option style={containerStyle} value="website">Website</option>
                           <option style={containerStyle} value="social_media">Social Media</option>
                           <option style={containerStyle} value="Email">Email</option>
                           <option style={containerStyle} value="word_of_mouth">Word of Mouth</option>
                           <option style={containerStyle} value="other">Other</option>
                         </select>
+                      </div>
                       </div>
                       <div className="inputBx" style={{ textAlign: 'center' }}>
                         <input

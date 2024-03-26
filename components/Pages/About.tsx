@@ -43,8 +43,8 @@ export default class About extends Component {
           <p>For three impactful years, TakeOver at the Summit has been a beacon of inspiration, uniting leaders across Education, Media, Technology, Family, Entertainment, Religion, and Politics. Our mission is clear: to ignite the ambitions of young leaders and cultivate a succession generation whose principles align with the life and teachings of Christ. </p>
             <ul>
           <li><i className="ion-android-checkmark-circle"></i> Inspiration Across Sectors</li>
-          <li><i className="ion-android-checkmark-circle"></i> Christ-Centered Leadership.</li>
-          <li><i className="ion-android-checkmark-circle"></i> One-Day Networking Extravaganza.</li><li><i className="ion-android-checkmark-circle"></i> World-className Speaker Series.</li>
+          <li><i className="ion-android-checkmark-circle"></i> Christ-Centered Leadership</li>
+          <li><i className="ion-android-checkmark-circle"></i> One-Day Networking Extravaganza</li><li><i className="ion-android-checkmark-circle"></i> world Renowned Speakers</li>
         </ul>
                                 
       </div>
