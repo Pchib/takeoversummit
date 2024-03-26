@@ -30,6 +30,7 @@ export default function Footer() {
                       <li><a href="#setheader">Home</a></li>
                       <li><a href="#register">Register</a></li>
                       <li><a href="#team">Faculty</a></li>
+                      <li><a href="https://www.gharvestisland.org/give/">Donate</a></li>
 
 
                     </ul>

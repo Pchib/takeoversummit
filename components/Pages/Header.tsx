@@ -67,6 +67,8 @@ export default function Header() {
                   <li style={{ color:'white'}}className="drop-down"><a href="">Resources</a>
                                 <ul>
                                 <li><a href="/#podcast">Videos</a></li>
+                                <li><a href="https://www.gharvestisland.org/contact/">Contact Us</a></li>
+                                
                                 {/* <li><a href="/books">Books</a></li> */}
                                 </ul>
                             </li> 
