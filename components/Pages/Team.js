@@ -153,12 +153,28 @@ Lagos State, Nigeria ·</span>
           </div>  
           <div className="col-lg-3 col-md-6 col-sm-6  wow fadeInUp" data-wow-delay="0.2s">
             <div className="member">
-              <img style={containerStyle} src="assets/img/pd.png" className="img-fluid" alt=""/>
+              <img style={containerStyle} src="assets/img/GO.png" className="img-fluid" alt=""/>
               <div className="member-info">
                 <div className="member-info-content">
-                  <h4>Pastor Dare Kolawole </h4>
-                  <span>Lead Pastor, GHarvest Church
-Island</span>
+                  <h4>Dr. Gabriel Ogbechie </h4>
+                  <span>MD/CEO of Rainoil ltd</span>
+                  {/* <div className="social">
+                    <a href=""><i className="fa fa-twitter"></i></a>
+                    <a href=""><i className="fa fa-facebook"></i></a>
+                    <a href=""><i className="fa fa-google-plus"></i></a>
+                    <a href=""><i className="fa fa-linkedin"></i></a>
+                  </div> */}
+                </div>
+              </div>
+            </div>
+          </div>  
+          <div className="col-lg-3 col-md-6 col-sm-6  wow fadeInUp" data-wow-delay="0.2s">
+            <div className="member">
+              <img style={containerStyle} src="assets/img/SA.png" className="img-fluid" alt=""/>
+              <div className="member-info">
+                <div className="member-info-content">
+                  <h4>Hon. Seyi Adisa </h4>
+                  <span>Governance, Leadership, Development Nation Builder </span>
                   {/* <div className="social">
                     <a href=""><i className="fa fa-twitter"></i></a>
                     <a href=""><i className="fa fa-facebook"></i></a>
@@ -174,23 +190,6 @@ Island</span>
           
 
 
-<div className="col-lg-3 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.2s">
-  <div className="member">
-    <img style={containerStyle} src="assets/img/unknow3.png" className="img-fluid" alt=""/>
-    <div className="member-info">
-      <div className="member-info-content">
-        {/* <h4>William Uche MBA </h4>
-        <span>Actor, producer, model, entrepreneur, comedian, and social media influencer</span>  */}
-        {/* <div className="social">
-          <a href=""><i className="fa fa-twitter"></i></a>
-          <a href=""><i className="fa fa-facebook"></i></a>
-          <a href=""><i className="fa fa-google-plus"></i></a>
-          <a href=""><i className="fa fa-linkedin"></i></a>
-      </div>*/}
-      </div>
-    </div>
-  </div>
-</div>
 
 
 </div>
