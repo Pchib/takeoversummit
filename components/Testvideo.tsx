@@ -34,9 +34,10 @@ export default function TestGifLoop() {
     // Clear the interval when the component unmounts
     return () => clearInterval(intervalId);
   }, []);
-
+  
   // Use the correct gif based on isMobile value
-  const gif = isMobile ? 'takegif2.gif' : 'takegif1.gif';
+  // const gif = isMobile ? 'takegif2.gif' : 'takegif1.gif';
+  const gif = isMobile ? '/ghshomepage.png' : '/ghshomepage.png';
 
   return (
     <div>

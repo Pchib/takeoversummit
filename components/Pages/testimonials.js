@@ -76,7 +76,7 @@ export default class testimonials extends Component {
     }
 
     return (
-      <div style={{ marginTop: "-50px", marginBottom: "-70px" }}>
+      <div style={{ marginTop: "-2%", marginBottom: "-70px" }}>
         <div
           class="modal fade bd-example-modal-ed"
           tabindex="-1"
