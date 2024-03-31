@@ -153,7 +153,7 @@ export default class Register extends Component {
                           required
                           
                         >
-                          <option value="" >Preferred Hall Selection.</option>
+                          <option value="" >Mode of Participation.</option>
                           <option style={containerStyle} value="physical">Physical</option> 
                           <option style={containerStyle} value="virtual">Virtual </option>
                         </select>
