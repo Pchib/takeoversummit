@@ -74,13 +74,13 @@ const VideoComponent = () => {
   return (
     <div>
         <div className="blob-container" stlye={{opacity:"40%"}}>
-    <div className="blob"></div>
+    {/* <div className="blob"></div>
     <div className="blob one"></div>
     <div className="blob two"></div>
     <div className="blob three"></div>
     <div className="blob four"></div>
     <div className="blob five"></div>
-    <div className="blob six"></div>
+    <div className="blob six"></div> */}
     
   </div>
 
@@ -88,38 +88,32 @@ const VideoComponent = () => {
 
 <div className='container'>
 <div className="section-header mt-5">
-                    <h3>Podcast</h3>
-            <p>
+                    {/* <h3>Podcast</h3> */}
+            {/* <p>
             Welcome to our exclusive video showcase, a treasure trove of memories from past TakeOver at the Summit events. In this collection, we have curated the best moments, powerful talks, and transformative experiences that have defined the essence of TakeOver at the Summit. 
-            </p>
+            </p> */}
           </div>    
           <Container>
           <VideoPlayerContainer>
-        <video
-          src={currentVideo ? currentVideo.src : ""}
+          <div style={{ padding: '56.25% 0 0 0', position: 'relative' }}>
+      <iframe
+        src="https://player.vimeo.com/video/929850554?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+        frameBorder="0"
+        allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
+        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
+        title="TOATS 2024"
+      ></iframe>
+    </div>
+        {/* <video
+          src='https://dev.gharvestisland.org/wp-content/uploads/2024/02/WhatsApp-Video-2024-02-11-at-22.30.34_485fad40.mp4'
           style={{ width: "100%" }}
           controls={true}
-          autoPlay={false}
+          autoPlay={true}
           controlsList="nodownload"
-        ></video>
-        <div className="panel-body">
-          <h4 className="video-title text-red">{currentVideo ? currentVideo.title : ""}</h4>
-          <p className="video-lead">{currentVideo ? currentVideo.lead : ""}</p>
-        </div>
+        ></video> */}
+        
       </VideoPlayerContainer>
-                  <VideoListContainer>
-        {videos.map((video, index) => (
-          <VideoThumbnail key={index} onClick={() => handleVideoClick(video)}>
-          <div stlye={{  width:'50%',bacgroundColor: 'white'
-}}>        
-   <h6>{video.title}</h6>
-<p>{video.lead}</p>
-
-
-          </div>
-          </VideoThumbnail>
-        ))}
-      </VideoListContainer>
+                
 
     </Container>
 

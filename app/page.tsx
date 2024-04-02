@@ -13,6 +13,7 @@ import Listen from '@/components/Pages/Listen'
 import Countdown from '@/components/Pages/Countdown'
 import Register from '@/components/Pages/Register.js'
 import Podcast from '@/components/Pages/Podcast.js'
+import Montage from '@/components/Pages/montage.js'
 import Footer from '@/components/Pages/Footer.js'
 import Head from 'next/head';
 // import '../public/assets/css/style'
@@ -99,8 +100,8 @@ export default function Home() {
   {/* <Service/> */}
 <About/>
 
-
-<Guestslide/>
+<Montage/>
+{/* <Guestslide/> */}
 
 
 <Team/>
