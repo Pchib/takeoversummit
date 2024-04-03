@@ -36,8 +36,8 @@ export default function TestGifLoop() {
   }, []);
   
   // Use the correct gif based on isMobile value
-  const gif = isMobile ? 'takegif2.gif' : 'takegif1.gif';
-  // const gif = isMobile ? '/ghshomepage.jpg' : '/ghshomepage.jpg';
+  // const gif = isMobile ? 'takegif2.gif' : 'takegif1.gif';
+  const gif = isMobile ? '/ghsp.png' : '/ghshomepage.png';
 
   return (
     <div>

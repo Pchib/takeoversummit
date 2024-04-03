@@ -76,7 +76,499 @@ export default class testimonials extends Component {
     }
 
     return (
-      <div style={{ marginTop: "-2%", marginBottom: "-70px" }}>
+      // <div style={{ marginTop: "-2%", marginBottom: "-70px" }}>
+      //   <div
+      //     class="modal fade bd-example-modal-ed"
+      //     tabindex="-1"
+      //     role="dialog"
+      //     aria-labelledby="myLargeModalLabel"
+      //     aria-hidden="true"
+      //   >
+      //     <div class="modal-dialog modal-lg">
+      //       <div class="modal-content">
+      //         <div style={styles.body}>
+      //           <header style={styles.header}>
+      //             <h1>Education</h1>
+      //             <div
+      //     class="modal fade bd-example-modal-ed"
+      //     tabindex="-1"
+      //     role="dialog"
+      //     aria-labelledby="myLargeModalLabel"
+      //     aria-hidden="true"
+      //   >
+      //     <div class="modal-dialog modal-lg">
+      //       <div class="modal-content">
+      //         <div style={styles.body}>
+      //           <header style={styles.header}>
+      //             <h1>Education</h1>
+      //           </header>
+
+      //           <div style={styles.content}>
+      //             <div style={styles.section}>
+      //               <p>
+      //                 For the education sector, Take Over At The Summit has been
+      //                 a beacon of inspiration for aspiring young leaders. The
+      //                 focus on forging a succession generation of leaders aligns
+      //                 with the principles of Christ, emphasizing values and
+      //                 ethics in leadership. The platform provides a unique
+      //                 opportunity for networking and learning from world-class
+      //                 leaders, fostering innovation and pushing boundaries in
+      //                 the field of education.
+      //               </p>
+      //             </div>
+
+      //             {/* Repeat the structure for other sectors */}
+      //           </div>
+      //         </div>
+      //       </div>
+      //     </div>
+      //     <div
+      //     class="modal fade bd-example-modal-ed"
+      //     tabindex="-1"
+      //     role="dialog"
+      //     aria-labelledby="myLargeModalLabel"
+      //     aria-hidden="true"
+      //   >
+      //     <div class="modal-dialog modal-lg">
+      //       <div class="modal-content">
+      //         <div style={styles.body}>
+      //           <header style={styles.header}>
+      //             <h1>Education</h1>
+      //           </header>
+
+      //           <div style={styles.content}>
+      //             <div style={styles.section}>
+      //               <p>
+      //                 For the education sector, Take Over At The Summit has been
+      //                 a beacon of inspiration for aspiring young leaders. The
+      //                 focus on forging a succession generation of leaders aligns
+      //                 with the principles of Christ, emphasizing values and
+      //                 ethics in leadership. The platform provides a unique
+      //                 opportunity for networking and learning from world-class
+      //                 leaders, fostering innovation and pushing boundaries in
+      //                 the field of education.
+      //               </p>
+      //             </div>
+
+      //             {/* Repeat the structure for other sectors */}
+      //           </div>
+      //         </div>
+      //       </div>
+      //     </div>
+      //   </div>        </div>                </header>
+
+      //           <div style={styles.content}>
+      //             <div style={styles.section}>
+      //               <p>
+      //                 For the education sector, Take Over At The Summit has been
+      //                 a beacon of inspiration for aspiring young leaders. The
+      //                 focus on forging a succession generation of leaders aligns
+      //                 with the principles of Christ, emphasizing values and
+      //                 ethics in leadership. The platform provides a unique
+      //                 opportunity for networking and learning from world-class
+      //                 leaders, fostering innovation and pushing boundaries in
+      //                 the field of education.
+      //               </p>
+      //             </div>
+
+      //             {/* Repeat the structure for other sectors */}
+      //           </div>
+      //         </div>
+      //       </div>
+      //     </div>
+      //   </div>
+      //   <div
+      //     class="modal fade bd-example-modal-bu"
+      //     tabindex="-1"
+      //     role="dialog"
+      //     aria-labelledby="myLargeModalLabel"
+      //     aria-hidden="true"
+      //   >
+      //     <div class="modal-dialog modal-lg">
+      //       <div class="modal-content">
+      //         <div style={styles.body}>
+      //           <header style={styles.header}>
+      //             <h1> Business and Economy</h1>
+      //           </header>
+
+      //           <div style={styles.content}>
+      //             <div style={styles.section}>
+      //               <p>
+      //               Take Over At The Summit has a significant impact on the business and economic sectors by bringing together leaders who exemplify Christ-centered principles in their professional lives. The event provides a platform for discussions on ethical business practices, innovation, and collaboration. Networking opportunities foster connections that contribute to the growth and development of a principled business community.
+      //               </p>
+      //             </div>
+
+      //             {/* Repeat the structure for other sectors */}
+      //           </div>
+      //         </div>
+      //       </div>
+      //     </div>
+      //   </div> <div
+      //     class="modal fade bd-example-modal-en"
+      //     tabindex="-1"
+      //     role="dialog"
+      //     aria-labelledby="myLargeModalLabel"
+      //     aria-hidden="true"
+      //   >
+      //     <div class="modal-dialog modal-lg">
+      //       <div class="modal-content">
+      //         <div style={styles.body}>
+      //           <header style={styles.header}>
+      //             <h1>Entertainment</h1>
+      //           </header>
+
+      //           <div style={styles.content}>
+      //             <div style={styles.section}>
+      //               <p>
+      //               In the realm of entertainment, Take Over At The Summit has created a space where leaders come together to share stories of grit, creativity, and boundary-pushing. The event serves as a platform to inspire young individuals to aspire to leadership roles in the entertainment industry. The principles of Christ guide these leaders, ensuring a values-driven approach in an industry often characterized by diverse influences.
+      //               </p>
+      //             </div>
+
+      //             {/* Repeat the structure for other sectors */}
+      //           </div>
+      //         </div>
+      //       </div>
+      //     </div>
+      //   </div>
+
+      //   <div
+      //     class="modal fade bd-example-modal-po"
+      //     tabindex="-1"
+      //     role="dialog"
+      //     aria-labelledby="myLargeModalLabel"
+      //     aria-hidden="true"
+      //   >
+      //     <div class="modal-dialog modal-lg">
+      //       <div class="modal-content">
+      //         <div style={styles.body}>
+      //           <header style={styles.header}>
+      //             <h1>Politics</h1>
+      //           </header>
+
+      //           <div style={styles.content}>
+      //             <div style={styles.section}>
+      //               <p>
+      //               Take Over At The Summit plays a crucial role in the political landscape by bringing together leaders who are guided by the principles of Christ. The event fosters discussions on leadership that transcend political boundaries, emphasizing values, and inspiring the next generation of political leaders. The networking opportunities provided create a platform for leaders from different ethnic backgrounds to connect and collaborate.
+      //               </p>
+      //             </div>
+
+      //             {/* Repeat the structure for other sectors */}
+      //           </div>
+      //         </div>
+      //       </div>
+      //     </div>
+      //   </div>
+
+
+      //   <div
+      //     class="modal fade bd-example-modal-re"
+      //     tabindex="-1"
+      //     role="dialog"
+      //     aria-labelledby="myLargeModalLabel"
+      //     aria-hidden="true"
+      //   >
+      //     <div class="modal-dialog modal-lg">
+      //       <div class="modal-content">
+      //         <div style={styles.body}>
+      //           <header style={styles.header}>
+      //             <h1>Religion</h1>
+      //           </header>
+
+      //           <div style={styles.content}>
+      //             <div style={styles.section}>
+      //               <p>
+      //               Given its focus on Christ-centered leadership, Take Over At The Summit significantly impacts the religious sector. Leaders converge to discuss and embody principles that align with Christ teachings, fostering a generation of religious leaders who lead with integrity and compassion. The event serves as a unique platform for religious leaders to connect and share their experiences.
+      //               </p>
+      //             </div>
+
+      //             {/* Repeat the structure for other sectors */}
+      //           </div>
+      //         </div>
+      //       </div>
+      //     </div>
+      //   </div>
+
+      //   <div
+      //     class="modal fade bd-example-modal-fa"
+      //     tabindex="-1"
+      //     role="dialog"
+      //     aria-labelledby="myLargeModalLabel"
+      //     aria-hidden="true"
+      //   >
+      //     <div class="modal-dialog modal-lg">
+      //       <div class="modal-content">
+      //         <div style={styles.body}>
+      //           <header style={styles.header}>
+      //             <h1>Family</h1>
+      //           </header>
+
+      //           <div style={styles.content}>
+      //             <div style={styles.section}>
+      //               <p>
+      //               In the context of family, Take Over At The Summit recognizes the importance of leadership within the family unit. By promoting principles rooted in the life of Christ, the event inspires individuals to take on leadership roles within their families, fostering strong, values-driven family units. The networking opportunities at the summit contribute to the exchange of ideas on building resilient and compassionate families.
+      //               </p>
+      //             </div>
+
+      //             {/* Repeat the structure for other sectors */}
+      //           </div>
+      //         </div>
+      //       </div>
+      //     </div>
+      //   </div>
+
+
+      //   <div
+      //     class="modal fade bd-example-modal-me"
+      //     tabindex="-1"
+      //     role="dialog"
+      //     aria-labelledby="myLargeModalLabel"
+      //     aria-hidden="true"
+      //   >
+      //     <div class="modal-dialog modal-lg">
+      //       <div class="modal-content">
+      //         <div style={styles.body}>
+      //           <header style={styles.header}>
+      //             <h1>Media and Technology</h1>
+      //           </header>
+
+      //           <div style={styles.content}>
+      //             <div style={styles.section}>
+      //               <p>
+      //               For the dynamic sectors of media and technology, Take Over At The Summit serves as a catalyst for innovation and boundary-pushing. Leaders from these fields gather to share insights, discuss opportunities, and inspire the next generation. The principles of Christ guide discussions, ensuring ethical and responsible leadership in the ever-evolving landscape of media and technology.
+      //               </p>
+      //             </div>
+
+      //             {/* Repeat the structure for other sectors */}
+      //           </div>
+      //         </div>
+      //       </div>
+      //     </div>
+      //   </div>
+      //   <OwlCarousel className="owl-theme" loop margin={2} {...option} nav>
+      //     <div className="item">
+      //       <section
+      //         id="services"
+      //         style={{ background: "transparent" }}
+      //         className="section-bg"
+      //       >
+      //         <div className="container">
+      //           <div className="bounceInUp" data--duration="1.4s">
+      //             <div
+      //               className="box "
+      //               style={sizeCal}
+      //             >
+      //               <button
+      //                 type="button"
+      //                 class=""
+      //                 data-toggle="modal"
+      //                 data-target=".bd-example-modal-ed"
+      //               >
+      //                <div class="icon" ><i><img src="assets/ed.png"/></i>
+      //                 </div>
+      //                 <h4 className="title">
+      //                   <a>
+      //                     Education<br></br>
+      //                     <br></br>
+      //                   </a>
+      //                 </h4>
+      //                 <p className="description"></p>{" "}
+      //               </button>
+      //             </div>
+      //           </div>
+      //         </div>
+      //       </section>
+      //     </div>
+      //     <div className="item">
+      //       <section
+      //         id="services"
+      //         style={{ background: "transparent" }}
+      //         className="section-bg"
+      //       >
+      //         <div className="container">
+      //           <div className="  bounceInUp" data--duration="1.4s">
+      //             <div
+      //               className="box"
+      //               style={{ paddingRight: "50px", paddingLeft: "50px" }}
+      //             >  <button
+      //             type="button"
+      //             class=""
+      //             data-toggle="modal"
+      //             data-target=".bd-example-modal-bu"
+      //           >
+      //              <div class="icon" ><i ><i><img src="assets/Bu.png"/></i></i>
+      //               </div>
+      //               <h4 className="title">
+      //                 <a>
+      //                   Business & <br></br>
+      //                   Economy
+      //                 </a>
+      //               </h4>
+      //               <p className="description"></p>
+      //               </button>
+      //             </div>
+      //           </div>
+      //         </div>
+      //       </section>{" "}
+      //     </div>
+      //     <div className="item">
+      //       <section
+      //         id="services"
+      //         style={{ background: "transparent" }}
+      //         className="section-bg"
+      //       >
+      //         <div className="container">
+      //           <div className="  bounceInUp" data--duration="1.4s">
+      //             <div
+      //               className="box"
+      //               style={{ paddingRight: "50px", paddingLeft: "50px" }}
+      //             >  <button
+      //             type="button"
+      //             class=""
+      //             data-toggle="modal"
+      //             data-target=".bd-example-modal-en"
+      //           >
+      //           <div class="icon"><i><img src="assets/En.png"/></i>
+      //               </div>
+      //               <h4 className="title">
+      //                 <a>Entertainment </a><br></br>
+      //                     <br></br>
+      //               </h4>
+      //               <p className="description"></p>
+      //               </button>
+      //             </div>
+      //           </div>
+      //         </div>
+      //       </section>{" "}
+      //     </div>
+      //     <div className="item">
+      //       <section
+      //         id="services"
+      //         style={{ background: "transparent" }}
+      //         className="section-bg"
+      //       >
+      //         <div className="container">
+      //           <div className="  bounceInUp" data--duration="1.4s">
+      //             <div
+      //               className="box"
+      //               style={{ paddingRight: "50px", paddingLeft: "50px" }}
+      //             >  <button
+      //             type="button"
+      //             class=""
+      //             data-toggle="modal"
+      //             data-target=".bd-example-modal-po"
+      //           >
+                   
+      //         <div class="icon" ><i><img src="assets/Po.png"/></i>
+      //               </div>
+      //               <h4 className="title">
+      //                 <a>Politics</a><br></br>
+      //                     <br></br>
+      //               </h4>
+      //               <p className="description"></p>
+      //               </button>
+      //             </div>
+      //           </div>
+      //         </div>
+      //       </section>{" "}
+      //     </div>
+      //     <div className="item">
+      //       <section
+      //         id="services"
+      //         style={{ background: "transparent" }}
+      //         className="section-bg"
+      //       >
+      //         <div className="container">
+      //           <div className="  bounceInUp" data--duration="1.4s">
+      //             <div
+      //               className="box"
+      //               style={{ paddingRight: "50px", paddingLeft: "50px" }}
+      //             >  <button
+      //             type="button"
+      //             class=""
+      //             data-toggle="modal"
+      //             data-target=".bd-example-modal-re"
+      //           >
+                  
+      //         <div class="icon" ><i><img src="assets/re.png"/></i>
+      //               </div>
+      //               <h4 className="title">
+      //                 <a>Religion</a><br></br>
+      //                     <br></br>
+      //               </h4>
+      //               <p className="description"></p>
+      //               </button>
+      //             </div>
+      //           </div>
+      //         </div>
+      //       </section>{" "}
+      //     </div>
+      //     <div className="item">
+      //       <section
+      //         id="services"
+      //         style={{ background: "transparent" }}
+      //         className="section-bg"
+      //       >
+      //         <div className="container">
+      //           <div className="  bounceInUp" data--duration="1.4s">
+      //             <div
+      //               className="box"
+      //               style={{ paddingRight: "50px", paddingLeft: "50px" }}
+      //             >
+      //                 <button
+      //                 type="button"
+      //                 class=""
+      //                 data-toggle="modal"
+      //                 data-target=".bd-example-modal-fa"
+      //               >
+      //               <div class="icon" ><i><img src="assets/fa.png"/></i>
+      //               </div>
+      //               <h4 className="title">
+      //                 <a>Family</a><br></br>
+      //                     <br></br>
+      //               </h4>
+      //               <p className="description"></p>
+      //               </button>
+      //             </div>
+      //           </div>
+      //         </div>
+      //       </section>{" "}
+      //     </div>{" "}
+      //     <div className="item">
+      //       <section
+      //         id="services"
+      //         style={{ background: "transparent" }}
+      //         className="section-bg"
+      //       >
+      //         <div className="container">
+      //           <div className="  bounceInUp" data--duration="1.4s">
+      //             <div
+      //               className="box"
+      //               style={{ paddingRight: "50px", paddingLeft: "50px" }}
+      //             >  <button
+      //             type="button"
+      //             class=""
+      //             data-toggle="modal"
+      //             data-target=".bd-example-modal-me"
+      //           >
+      //           <div class="icon" ><i><img src="assets/me.png"/></i>
+      //               </div>
+      //               <h4 className="title">
+      //                 <a>
+      //                   Media &<br></br>
+      //                   Technology
+      //                 </a>
+      //               </h4>
+      //               <p className="description"></p>
+      //               </button>
+      //             </div>
+      //           </div>
+      //         </div>
+      //       </section>{" "}
+      //     </div>
+      //   </OwlCarousel>
+      // </div>
+
+<div style={{ marginTop: "-20px", marginBottom: "-70px" }}>
         <div
           class="modal fade bd-example-modal-ed"
           tabindex="-1"
@@ -352,10 +844,12 @@ export default class testimonials extends Component {
               className="section-bg"
             >
               <div className="container">
+
                 <div className="bounceInUp" data--duration="1.4s">
+
                   <div
                     className="box "
-                    style={sizeCal}
+                    // style={sizeCal}
                   >
                     <button
                       type="button"
@@ -363,16 +857,22 @@ export default class testimonials extends Component {
                       data-toggle="modal"
                       data-target=".bd-example-modal-ed"
                     >
-                     <div class="icon" ><i><img src="assets/ed.png"/></i>
-                      </div>
-                      <h4 className="title">
+                                      <img style={{width:'200px'}} src="assets/edu.png"/>
+
+{/* 
+                     <div class="icon" >
+
+                      </div> */}
+
+                      {/* <h4 className="title">
+
                         <a>
                           Education<br></br>
                           <br></br>
                         </a>
-                      </h4>
-                      <p className="description"></p>{" "}
-                    </button>
+                      </h4> */}
+                      {/* <p className="description"></p>{" "} */}
+                    </button> 
                   </div>
                 </div>
               </div>
@@ -388,14 +888,16 @@ export default class testimonials extends Component {
                 <div className="  bounceInUp" data--duration="1.4s">
                   <div
                     className="box"
-                    style={{ paddingRight: "50px", paddingLeft: "50px" }}
+                    // style={{ paddingRight: "50px", paddingLeft: "50px" }}
                   >  <button
                   type="button"
                   class=""
                   data-toggle="modal"
                   data-target=".bd-example-modal-bu"
                 >
-                   <div class="icon" ><i ><i><img src="assets/Bu.png"/></i></i>
+                                                        <img style={{width:'200px'}} src="assets/bec.png"/>
+
+                   {/* <div class="icon" ><i ><i><img src="assets/Bu.png"/></i></i>
                     </div>
                     <h4 className="title">
                       <a>
@@ -403,7 +905,7 @@ export default class testimonials extends Component {
                         Economy
                       </a>
                     </h4>
-                    <p className="description"></p>
+                    <p className="description"></p> */}
                     </button>
                   </div>
                 </div>
@@ -420,20 +922,22 @@ export default class testimonials extends Component {
                 <div className="  bounceInUp" data--duration="1.4s">
                   <div
                     className="box"
-                    style={{ paddingRight: "50px", paddingLeft: "50px" }}
+                    // style={{ paddingRight: "50px", paddingLeft: "50px" }}
                   >  <button
                   type="button"
                   class=""
                   data-toggle="modal"
                   data-target=".bd-example-modal-en"
                 >
+                                                                          <img style={{width:'200px'}} src="assets/en.png"/>
+{/* 
                 <div class="icon"><i><img src="assets/En.png"/></i>
                     </div>
                     <h4 className="title">
                       <a>Entertainment </a><br></br>
                           <br></br>
                     </h4>
-                    <p className="description"></p>
+                    <p className="description"></p> */}
                     </button>
                   </div>
                 </div>
@@ -450,13 +954,15 @@ export default class testimonials extends Component {
                 <div className="  bounceInUp" data--duration="1.4s">
                   <div
                     className="box"
-                    style={{ paddingRight: "50px", paddingLeft: "50px" }}
+                    // style={{ paddingRight: "50px", paddingLeft: "50px" }}
                   >  <button
                   type="button"
                   class=""
                   data-toggle="modal"
                   data-target=".bd-example-modal-po"
                 >
+                                                                          <img style={{width:'200px'}} src="assets/po.png"/>
+{/* 
                    
               <div class="icon" ><i><img src="assets/Po.png"/></i>
                     </div>
@@ -464,7 +970,7 @@ export default class testimonials extends Component {
                       <a>Politics</a><br></br>
                           <br></br>
                     </h4>
-                    <p className="description"></p>
+                    <p className="description"></p> */}
                     </button>
                   </div>
                 </div>
@@ -481,21 +987,22 @@ export default class testimonials extends Component {
                 <div className="  bounceInUp" data--duration="1.4s">
                   <div
                     className="box"
-                    style={{ paddingRight: "50px", paddingLeft: "50px" }}
+                    // style={{ paddingRight: "50px", paddingLeft: "50px" }}
                   >  <button
                   type="button"
                   class=""
                   data-toggle="modal"
                   data-target=".bd-example-modal-re"
                 >
-                  
+                                                                          <img style={{width:'200px'}} src="assets/re.png"/>
+{/* 
               <div class="icon" ><i><img src="assets/re.png"/></i>
                     </div>
                     <h4 className="title">
                       <a>Religion</a><br></br>
                           <br></br>
                     </h4>
-                    <p className="description"></p>
+                    <p className="description"></p> */}
                     </button>
                   </div>
                 </div>
@@ -512,7 +1019,7 @@ export default class testimonials extends Component {
                 <div className="  bounceInUp" data--duration="1.4s">
                   <div
                     className="box"
-                    style={{ paddingRight: "50px", paddingLeft: "50px" }}
+                    // style={{ paddingRight: "50px", paddingLeft: "50px" }}
                   >
                       <button
                       type="button"
@@ -520,13 +1027,15 @@ export default class testimonials extends Component {
                       data-toggle="modal"
                       data-target=".bd-example-modal-fa"
                     >
+                                                                              <img style={{width:'200px'}} src="assets/fa.png"/>
+{/* 
                     <div class="icon" ><i><img src="assets/fa.png"/></i>
                     </div>
                     <h4 className="title">
                       <a>Family</a><br></br>
                           <br></br>
                     </h4>
-                    <p className="description"></p>
+                    <p className="description"></p> */}
                     </button>
                   </div>
                 </div>
@@ -543,13 +1052,15 @@ export default class testimonials extends Component {
                 <div className="  bounceInUp" data--duration="1.4s">
                   <div
                     className="box"
-                    style={{ paddingRight: "50px", paddingLeft: "50px" }}
+                    // style={{ paddingRight: "50px", paddingLeft: "50px" }}
                   >  <button
                   type="button"
                   class=""
                   data-toggle="modal"
                   data-target=".bd-example-modal-me"
                 >
+                                                                          <img style={{width:'200px'}} src="assets/mt.png"/>
+{/* 
                 <div class="icon" ><i><img src="assets/me.png"/></i>
                     </div>
                     <h4 className="title">
@@ -558,7 +1069,7 @@ export default class testimonials extends Component {
                         Technology
                       </a>
                     </h4>
-                    <p className="description"></p>
+                    <p className="description"></p> */}
                     </button>
                   </div>
                 </div>
@@ -567,6 +1078,7 @@ export default class testimonials extends Component {
           </div>
         </OwlCarousel>
       </div>
+
     );
   }
 }
