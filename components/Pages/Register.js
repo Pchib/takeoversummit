@@ -281,25 +281,28 @@ export default class Register extends Component {
     };
     const inputStyle = {
       width:'30%',
-      marginLeft: '150px',
+      marginLeft: '100px',
       marginRight: '-100px',
 
      };   
        const inputStyle1 = {
       width:'30%',
-      marginLeft: '150px',
+      marginLeft: '100px',
       marginRight: '-60px',
 
      };  
      const inputStyle2 = {
-      width:'55%',
-      marginLeft: '120px',
-      marginRight: '20px',
+      width:'75%',
+      marginLeft: '80px',
+      marginTop: '12px',
+      marginRight: '-50px',
 
      };   const inputStyle3 = {
-      width:'55%',
-      marginLeft: '120px',
-      marginRight: '-15px',
+      width:'80%',
+      marginLeft: '80px',
+      marginTop: '12px',
+
+      marginRight: '-68px',
 
      };  
      const labelStyle = {
@@ -322,7 +325,7 @@ export default class Register extends Component {
 <div className="bodyform">
         <div>
        
-          <div className="container">
+          <div className="container" style={{ marginLeft:"-3%"}}>
             <div className="">
               <div className="ring">
                 {/* <i style={{ '--clr': '#00ff0a' }}></i>
@@ -332,7 +335,7 @@ export default class Register extends Component {
                   <h2 style={{color:"white", textAlign:"center", marginLeft:"5%"}}>Register</h2>
                   <div className=''>          
                             <div className=''>
-                  <img style={{position: "absolute", width:"56%", marginLeft:"24%", marginTop:"-19PX"}} src='assets/kc.png'/>
+                  <img style={{position: "absolute", width:"56%", marginLeft:"24%", marginTop:"px"}} src='assets/kc.png'/>
                   </div>
                   <div className=''>
                     <form className="form" onSubmit={this.handleSubmit}>
@@ -369,7 +372,7 @@ export default class Register extends Component {
 
 <div  style={{display:'flex', flexDirection:'row',justifyContent:'center'}}>
   <div style={labelStyle}>
-                          <label htmlFor="ModeOfParticipation">Mode Of Participation</label>
+                          <label htmlFor="ModeOfParticipation">Mode Of <br></br>Participation</label>
 
                           </div>
 
@@ -389,7 +392,7 @@ export default class Register extends Component {
                       <div className="inputBx mb-1" style={{ textAlign: 'center' }}>
 
                         <div style={{display:'flex', flexDirection:'row',justifyContent:'center'}}  >
-                      <div style={labelStyle1}>  <label htmlFor="SummitDiscoveryMethod" >How did you hear about us</label>
+                      <div style={labelStyle1}>  <label htmlFor="SummitDiscoveryMethod" >How did you<br></br> hear about us</label>
                       </div>
                       <div>
                         <select style={inputStyle2}
@@ -409,7 +412,7 @@ export default class Register extends Component {
                         </div>
                         </div>
                       </div>
-                      <div className="inputBx" style={{ textAlign: 'center' }}>
+                      <div className="inputBx" style={{ textAlign: 'center',width:"70%", marginLeft:'18%' }}>
                         <input
                           type="submit"
                           value={this.state.loading ? 'Loading...' : 'Submit'}

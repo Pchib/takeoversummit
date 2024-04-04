@@ -363,7 +363,7 @@ export default class testimonials extends Component {
       //                 data-toggle="modal"
       //                 data-target=".bd-example-modal-ed"
       //               >
-      //                <div class="icon" ><i><img src="assets/ed.png"/></i>
+      //                <div class="icon" ><i><img src="assets/ed.jpg"/></i>
       //                 </div>
       //                 <h4 className="title">
       //                   <a>
@@ -395,7 +395,7 @@ export default class testimonials extends Component {
       //             data-toggle="modal"
       //             data-target=".bd-example-modal-bu"
       //           >
-      //              <div class="icon" ><i ><i><img src="assets/Bu.png"/></i></i>
+      //              <div class="icon" ><i ><i><img src="assets/Bu.jpg"/></i></i>
       //               </div>
       //               <h4 className="title">
       //                 <a>
@@ -427,7 +427,7 @@ export default class testimonials extends Component {
       //             data-toggle="modal"
       //             data-target=".bd-example-modal-en"
       //           >
-      //           <div class="icon"><i><img src="assets/En.png"/></i>
+      //           <div class="icon"><i><img src="assets/En.jpg"/></i>
       //               </div>
       //               <h4 className="title">
       //                 <a>Entertainment </a><br></br>
@@ -458,7 +458,7 @@ export default class testimonials extends Component {
       //             data-target=".bd-example-modal-po"
       //           >
                    
-      //         <div class="icon" ><i><img src="assets/Po.png"/></i>
+      //         <div class="icon" ><i><img src="assets/Po.jpg"/></i>
       //               </div>
       //               <h4 className="title">
       //                 <a>Politics</a><br></br>
@@ -489,7 +489,7 @@ export default class testimonials extends Component {
       //             data-target=".bd-example-modal-re"
       //           >
                   
-      //         <div class="icon" ><i><img src="assets/re.png"/></i>
+      //         <div class="icon" ><i><img src="assets/re.jpg"/></i>
       //               </div>
       //               <h4 className="title">
       //                 <a>Religion</a><br></br>
@@ -520,7 +520,7 @@ export default class testimonials extends Component {
       //                 data-toggle="modal"
       //                 data-target=".bd-example-modal-fa"
       //               >
-      //               <div class="icon" ><i><img src="assets/fa.png"/></i>
+      //               <div class="icon" ><i><img src="assets/fa.jpg"/></i>
       //               </div>
       //               <h4 className="title">
       //                 <a>Family</a><br></br>
@@ -550,7 +550,7 @@ export default class testimonials extends Component {
       //             data-toggle="modal"
       //             data-target=".bd-example-modal-me"
       //           >
-      //           <div class="icon" ><i><img src="assets/me.png"/></i>
+      //           <div class="icon" ><i><img src="assets/me.jpg"/></i>
       //               </div>
       //               <h4 className="title">
       //                 <a>
@@ -857,7 +857,7 @@ export default class testimonials extends Component {
                       data-toggle="modal"
                       data-target=".bd-example-modal-ed"
                     >
-                                      <img style={{width:'200px'}} src="assets/edu.png"/>
+                                      <img style={{width:'200px'}} src="assets/edu.jpg"/>
 
 {/* 
                      <div class="icon" >
@@ -895,9 +895,9 @@ export default class testimonials extends Component {
                   data-toggle="modal"
                   data-target=".bd-example-modal-bu"
                 >
-                                                        <img style={{width:'200px'}} src="assets/bec.png"/>
+                                                        <img style={{width:'200px'}} src="assets/bec.jpg"/>
 
-                   {/* <div class="icon" ><i ><i><img src="assets/Bu.png"/></i></i>
+                   {/* <div class="icon" ><i ><i><img src="assets/Bu.jpg"/></i></i>
                     </div>
                     <h4 className="title">
                       <a>
@@ -929,9 +929,9 @@ export default class testimonials extends Component {
                   data-toggle="modal"
                   data-target=".bd-example-modal-en"
                 >
-                                                                          <img style={{width:'200px'}} src="assets/en.png"/>
+                                                                          <img style={{width:'200px'}} src="assets/en.jpg"/>
 {/* 
-                <div class="icon"><i><img src="assets/En.png"/></i>
+                <div class="icon"><i><img src="assets/En.jpg"/></i>
                     </div>
                     <h4 className="title">
                       <a>Entertainment </a><br></br>
@@ -961,10 +961,10 @@ export default class testimonials extends Component {
                   data-toggle="modal"
                   data-target=".bd-example-modal-po"
                 >
-                                                                          <img style={{width:'200px'}} src="assets/po.png"/>
+                                                                          <img style={{width:'200px'}} src="assets/po.jpg"/>
 {/* 
                    
-              <div class="icon" ><i><img src="assets/Po.png"/></i>
+              <div class="icon" ><i><img src="assets/Po.jpg"/></i>
                     </div>
                     <h4 className="title">
                       <a>Politics</a><br></br>
@@ -994,9 +994,9 @@ export default class testimonials extends Component {
                   data-toggle="modal"
                   data-target=".bd-example-modal-re"
                 >
-                                                                          <img style={{width:'200px'}} src="assets/re.png"/>
+                                                                          <img style={{width:'200px'}} src="assets/re.jpg"/>
 {/* 
-              <div class="icon" ><i><img src="assets/re.png"/></i>
+              <div class="icon" ><i><img src="assets/re.jpg"/></i>
                     </div>
                     <h4 className="title">
                       <a>Religion</a><br></br>
@@ -1027,9 +1027,9 @@ export default class testimonials extends Component {
                       data-toggle="modal"
                       data-target=".bd-example-modal-fa"
                     >
-                                                                              <img style={{width:'200px'}} src="assets/fa.png"/>
+                                                                              <img style={{width:'200px'}} src="assets/fa.jpg"/>
 {/* 
-                    <div class="icon" ><i><img src="assets/fa.png"/></i>
+                    <div class="icon" ><i><img src="assets/fa.jpg"/></i>
                     </div>
                     <h4 className="title">
                       <a>Family</a><br></br>
@@ -1059,9 +1059,9 @@ export default class testimonials extends Component {
                   data-toggle="modal"
                   data-target=".bd-example-modal-me"
                 >
-                                                                          <img style={{width:'200px'}} src="assets/mt.png"/>
+                                                                          <img style={{width:'200px'}} src="assets/mt.jpg"/>
 {/* 
-                <div class="icon" ><i><img src="assets/me.png"/></i>
+                <div class="icon" ><i><img src="assets/me.jpg"/></i>
                     </div>
                     <h4 className="title">
                       <a>
