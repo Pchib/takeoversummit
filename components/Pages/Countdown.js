@@ -46,10 +46,14 @@ export default function Countdown() {
      <h3> <div className='evendate'>Sat, 06 April 2024</div></h3>
 
         <div id='tiles'>
-          <span>{countdown.days}</span>
+        {/* <span>{countdown.days}</span>
           <span>{countdown.hours}</span>
           <span>{countdown.minutes}</span>
-          <span>{countdown.seconds}</span>
+          <span>{countdown.seconds}</span> */}
+          <span>0</span>
+          <span>0</span>
+          <span>0</span>
+          <span>0</span>
         </div>
         <div className="labels">
           <li>Days</li>
