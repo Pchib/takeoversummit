@@ -50,10 +50,10 @@ export default function Countdown() {
           <span>{countdown.hours}</span>
           <span>{countdown.minutes}</span>
           <span>{countdown.seconds}</span> */}
-          <span>0</span>
-          <span>0</span>
-          <span>0</span>
-          <span>0</span>
+          <span>00</span>
+          <span>00</span>
+          <span>00</span>
+          <span>00</span>
         </div>
         <div className="labels">
           <li>Days</li>
