@@ -250,6 +250,8 @@ export default class Register extends Component {
 
     const formEle = document.querySelector('form');
     const formDatab = new FormData(formEle);
+    console.log(formDatab);
+    console.log(formEle);
 
     fetch(
       'https://script.google.com/macros/s/AKfycbyA-JMs64INLVORSqgfRSWwJex5LXnnL2ZR8URhg52MbWoMg09J6kvj9BlfYzCFyodK8g/exec',
@@ -258,12 +260,19 @@ export default class Register extends Component {
         body: formDatab,
       }
     )
+    
       .then((res) => res.json())
       .then((data) => {
         console.log(data);
+        console.log(formDatab);
+        console.log(formEle);
+
+
         alert('Registration successfully!');
       })
       .catch((error) => {
+        console.log(formDatab);
+
         console.log(error);
         alert(error);
       })
