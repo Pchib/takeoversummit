@@ -15,6 +15,8 @@ import Register from '@/components/Pages/Register.js'
 import Podcast from '@/components/Pages/Podcast.js'
 import Montage from '@/components/Pages/montage.js'
 import Footer from '@/components/Pages/Footer.js'
+import Aichat from '@/components/Pages/aichat.js'
+
 import Head from 'next/head';
 // import '../public/assets/css/style'
 import '@/public/assets/css/style.css'
@@ -111,6 +113,7 @@ export default function Home() {
 <Podcast/>
 
 <Footer/>
+<Aichat/>
 {/* <Liveaudio/>
 <YouTubePlayer/> */}
 
