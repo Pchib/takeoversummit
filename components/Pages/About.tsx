@@ -40,7 +40,7 @@ export default class About extends Component {
       <div className="about-content wow fadeInLeft">
         <h2 className=''>Welcome to Take Over Summit</h2>
         <h3></h3>
-          <p>For three impactful years, TakeOver at the Summit has been a beacon of inspiration, uniting leaders across Education, Media, Technology, Family, Entertainment, Religion, and Politics. Our mission is clear: to ignite the ambitions of young leaders and cultivate a succession generation whose principles align with the life and teachings of Christ. </p>
+          <p>For four impactful years, TakeOver at the Summit has been a beacon of inspiration, uniting leaders across Education, Media, Technology, Family, Entertainment, Religion, and Politics. Our mission is clear: to ignite the ambitions of young leaders and cultivate a succession generation whose principles align with the life and teachings of Christ. </p>
             <ul>
           <li><i className="ion-android-checkmark-circle"></i> Inspiration Across Sectors</li>
           <li><i className="ion-android-checkmark-circle"></i> Christ-Centered Leadership</li>
