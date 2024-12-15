@@ -76,13 +76,14 @@ The Right-Fit Marriage Academy</span>
               </div>
             </div>
           </div> */}
+
 <div className="col-lg-3 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
   <div className="member">
-    <img style={containerStyle} src="assets/img/wum.png" className="img-fluid" alt=""/>
+    <img style={containerStyle} src="assets/img/unknow1.png" className="img-fluid" alt=""/>
     <div className="member-info">
       <div className="member-info-content">
-      <h4>Williams Uchemba </h4>
-        <span>Actor, producer, model, entrepreneur, comedian, and social media influencer</span> 
+      {/* <h4>Williams Uchemba </h4>
+        <span>Actor, producer, model, entrepreneur, comedian, and social media influencer</span>  */}
         {/* <div className="social">
           <a href=""><i className="fa fa-twitter"></i></a>
           <a href=""><i className="fa fa-facebook"></i></a>
@@ -94,6 +95,8 @@ The Right-Fit Marriage Academy</span>
   </div>
 </div>
 
+{/* 
+
 <div className="col-lg-3 col-md-6 col-sm-6  wow fadeInUp" data-wow-delay="0.1s">
             <div className="member">
               <img style={containerStyle} src="assets/img/no.png" className="img-fluid" alt=""/>
@@ -102,68 +105,111 @@ The Right-Fit Marriage Academy</span>
                 <h4>Nneka Okekearu</h4>
                   <span>Director - Enterprise Development Centre, Pan-Atlantic University
 Lagos State, Nigeria ·</span>
-                  {/* <div className="social">
-                    <a href=""><i className="fa fa-twitter"></i></a>
-                    <a href=""><i className="fa fa-facebook"></i></a>
-                    <a href=""><i className="fa fa-google-plus"></i></a>
-                    <a href=""><i className="fa fa-linkedin"></i></a>
-                  </div> */}
+          
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
+
+
+
+          <div className="col-lg-3 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+  <div className="member">
+    <img style={containerStyle} src="assets/img/unknow2.png" className="img-fluid" alt=""/>
+    <div className="member-info">
+      <div className="member-info-content">
+      {/* <h4>Williams Uchemba </h4>
+        <span>Actor, producer, model, entrepreneur, comedian, and social media influencer</span>  */}
+        {/* <div className="social">
+          <a href=""><i className="fa fa-twitter"></i></a>
+          <a href=""><i className="fa fa-facebook"></i></a>
+          <a href=""><i className="fa fa-google-plus"></i></a>
+          <a href=""><i className="fa fa-linkedin"></i></a>
+        </div> */}
+      </div>
+    </div>
+  </div>
+</div>
+
         </div>  
         <div className="row">
 
-        <div className="col-lg-3 col-md-6 col-sm-6  wow fadeInUp" data-wow-delay="0.1s">
+
+        <div className="col-lg-3 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+  <div className="member">
+    <img style={containerStyle} src="assets/img/unknow1.png" className="img-fluid" alt=""/>
+    <div className="member-info">
+      <div className="member-info-content">
+     
+      </div>
+    </div>
+  </div>
+</div>
+
+        {/* <div className="col-lg-3 col-md-6 col-sm-6  wow fadeInUp" data-wow-delay="0.1s">
             <div className="member">
               <img style={containerStyle} src="assets/img/df.png" className="img-fluid" alt=""/>
               <div className="member-info">
                 <div className="member-info-content">
                   <h4>Dr. FEB Idahosa</h4>
                   <span>President, Ben Idahosa University, Benin</span>
-                  {/* <div className="social">
-                    <a href=""><i className="fa fa-twitter"></i></a>
-                    <a href=""><i className="fa fa-facebook"></i></a>
-                    <a href=""><i className="fa fa-google-plus"></i></a>
-                    <a href=""><i className="fa fa-linkedin"></i></a>
-                  </div> */}
+                 
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
 
 
-          <div className="col-lg-3 col-md-6 col-sm-6  wow fadeInUp" data-wow-delay="0.2s">
+<div className="col-lg-3 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+  <div className="member">
+    <img style={containerStyle} src="assets/img/unknow2.png" className="img-fluid" alt=""/>
+    <div className="member-info">
+      <div className="member-info-content">
+     
+      </div>
+    </div>
+  </div>
+</div>
+<div className="col-lg-3 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+  <div className="member">
+    <img style={containerStyle} src="assets/img/unknow1.png" className="img-fluid" alt=""/>
+    <div className="member-info">
+      <div className="member-info-content">
+     
+      </div>
+    </div>
+  </div>
+</div>
+<div className="col-lg-3 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+  <div className="member">
+    <img style={containerStyle} src="assets/img/unknow2.png" className="img-fluid" alt=""/>
+    <div className="member-info">
+      <div className="member-info-content">
+     
+      </div>
+    </div>
+  </div>
+</div>
+          {/* <div className="col-lg-3 col-md-6 col-sm-6  wow fadeInUp" data-wow-delay="0.2s">
             <div className="member">
               <img style={containerStyle} src="assets/img/am.png" className="img-fluid" alt=""/>
               <div className="member-info">
                 <div className="member-info-content">
                   <h4>Ayo Mairo-Ese</h4>
                   <span>Compere, Broadcaster, Public Speaker and Mentor</span>
-                  {/* <div className="social">
-                    <a href=""><i className="fa fa-twitter"></i></a>
-                    <a href=""><i className="fa fa-facebook"></i></a>
-                    <a href=""><i className="fa fa-google-plus"></i></a>
-                    <a href=""><i className="fa fa-linkedin"></i></a>
-                  </div> */}
+                
                 </div>
               </div>
             </div>
-          </div>  
-          <div className="col-lg-3 col-md-6 col-sm-6  wow fadeInUp" data-wow-delay="0.2s">
+          </div>   */}
+          {/* <div className="col-lg-3 col-md-6 col-sm-6  wow fadeInUp" data-wow-delay="0.2s">
             <div className="member">
               <img style={containerStyle} src="assets/img/GO.png" className="img-fluid" alt=""/>
               <div className="member-info">
                 <div className="member-info-content">
                   <h4>Dr. Gabriel Ogbechie </h4>
                   <span>MD/CEO of Rainoil ltd</span>
-                  {/* <div className="social">
-                    <a href=""><i className="fa fa-twitter"></i></a>
-                    <a href=""><i className="fa fa-facebook"></i></a>
-                    <a href=""><i className="fa fa-google-plus"></i></a>
-                    <a href=""><i className="fa fa-linkedin"></i></a>
-                  </div> */}
+                 
                 </div>
               </div>
             </div>
@@ -175,16 +221,11 @@ Lagos State, Nigeria ·</span>
                 <div className="member-info-content">
                   <h4>Hon. Seyi Adisa </h4>
                   <span>Governance, Leadership, Development Nation Builder </span>
-                  {/* <div className="social">
-                    <a href=""><i className="fa fa-twitter"></i></a>
-                    <a href=""><i className="fa fa-facebook"></i></a>
-                    <a href=""><i className="fa fa-google-plus"></i></a>
-                    <a href=""><i className="fa fa-linkedin"></i></a>
-                  </div> */}
+                
                 </div>
               </div>
-            </div>
-          </div>  
+            </div> 
+          </div>  */}
           
           
           
