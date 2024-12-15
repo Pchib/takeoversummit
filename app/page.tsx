@@ -16,6 +16,7 @@ import Podcast from '@/components/Pages/Podcast.js'
 import Montage from '@/components/Pages/montage.js'
 import Footer from '@/components/Pages/Footer.js'
 import Aichat from '@/components/Pages/aichat.js'
+import Pastfac from '@/components/Pages/Pastfac.js'
 
 import Head from 'next/head';
 // import '../public/assets/css/style'
@@ -107,7 +108,7 @@ export default function Home() {
 
 
 <Team/>
-
+<Pastfac/>
 <Register/>
 {/* <Listen/> */}
 <Podcast/>
