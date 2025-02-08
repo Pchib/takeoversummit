@@ -314,6 +314,7 @@ const ChatWidget = () => {
           bottom: 16,
           left: 16,
           zIndex: 9999,
+          color:"white",
           backgroundColor: "#f47321", // Retaining the background color
           // Animate the button if the chat is not open and no messages have been sent
           animation: (!open && messages.length === 0) ? `${bounce} 2s infinite` : 'none',
