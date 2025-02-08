@@ -77,23 +77,27 @@ The Right-Fit Marriage Academy</span>
             </div>
           </div> */}
 
-<div className="col-lg-3 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
-  <div className="member">
-    <img style={containerStyle} src="assets/img/unknow1.png" className="img-fluid" alt=""/>
-    <div className="member-info">
-      <div className="member-info-content">
-      {/* <h4>Williams Uchemba </h4>
-        <span>Actor, producer, model, entrepreneur, comedian, and social media influencer</span>  */}
-        {/* <div className="social">
-          <a href=""><i className="fa fa-twitter"></i></a>
-          <a href=""><i className="fa fa-facebook"></i></a>
-          <a href=""><i className="fa fa-google-plus"></i></a>
-          <a href=""><i className="fa fa-linkedin"></i></a>
-        </div> */}
-      </div>
-    </div>
-  </div>
-</div>
+
+
+          <div className="col-lg-3 col-md-6 col-sm-6  wow fadeInUp" data-wow-delay="0.3s">
+            <div className="member">
+              <img style={containerStyle} src="assets/rmd.png" className="img-fluid" alt=""/>
+              <div className="member-info">
+                <div className="member-info-content">
+                  <h4>RMD</h4>
+                  <span>Nollywood Producer and Actor</span>
+                  <div className="social">
+                    {/* <a href=""><i className="fa fa-twitter"></i></a>
+                    <a href=""><i className="fa fa-facebook"></i></a>
+                    <a href=""><i className="fa fa-google-plus"></i></a>
+                    <a href=""><i className="fa fa-linkedin"></i></a> */}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
 
 {/* 
 
@@ -112,29 +116,40 @@ Lagos State, Nigeria ·</span>
           </div> */}
 
 
+<div className="col-lg-3 col-md-6 col-sm-6  wow fadeInUp" data-wow-delay="0.3s">
+            <div className="member">
+              <img style={containerStyle} src="assets/femi.png" className="img-fluid" alt=""/>
+              <div className="member-info">
+                <div className="member-info-content">
+                  <h4>Femi Banigbe                  </h4>
+                
+<span>  Chief Executive Officer - 9mobile</span>
+<div className="social">
+                    {/* <a href=""><i className="fa fa-twitter"></i></a>
+                    <a href=""><i className="fa fa-facebook"></i></a>
+                    <a href=""><i className="fa fa-google-plus"></i></a>
+                    <a href=""><i className="fa fa-linkedin"></i></a> */}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
-          <div className="col-lg-3 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+          {/* <div className="col-lg-3 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
   <div className="member">
     <img style={containerStyle} src="assets/img/unknow2.png" className="img-fluid" alt=""/>
     <div className="member-info">
       <div className="member-info-content">
-      {/* <h4>Williams Uchemba </h4>
-        <span>Actor, producer, model, entrepreneur, comedian, and social media influencer</span>  */}
-        {/* <div className="social">
-          <a href=""><i className="fa fa-twitter"></i></a>
-          <a href=""><i className="fa fa-facebook"></i></a>
-          <a href=""><i className="fa fa-google-plus"></i></a>
-          <a href=""><i className="fa fa-linkedin"></i></a>
-        </div> */}
+    
       </div>
     </div>
   </div>
-</div>
+</div> */}
 
         </div>  
         <div className="row">
 
-
+{/* 
         <div className="col-lg-3 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
   <div className="member">
     <img style={containerStyle} src="assets/img/unknow1.png" className="img-fluid" alt=""/>
@@ -144,9 +159,9 @@ Lagos State, Nigeria ·</span>
       </div>
     </div>
   </div>
-</div>
+</div> */}
 
-        {/* <div className="col-lg-3 col-md-6 col-sm-6  wow fadeInUp" data-wow-delay="0.1s">
+        <div className="col-lg-3 col-md-6 col-sm-6  wow fadeInUp" data-wow-delay="0.1s">
             <div className="member">
               <img style={containerStyle} src="assets/img/df.png" className="img-fluid" alt=""/>
               <div className="member-info">
@@ -157,8 +172,19 @@ Lagos State, Nigeria ·</span>
                 </div>
               </div>
             </div>
-          </div> */}
-
+          </div>
+          <div className="col-lg-3 col-md-6 col-sm-6  wow fadeInUp" data-wow-delay="0.3s">
+            <div className="member">
+              <img style={containerStyle} src="assets/ty.png" className="img-fluid" alt=""/>
+              <div className="member-info">
+                <div className="member-info-content">
+                  <h4>Tayo Ojuri</h4>
+                  <span>Managing Partner - Aglow Aviation Support Services Limited </span>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
 
 <div className="col-lg-3 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
   <div className="member">
@@ -180,7 +206,7 @@ Lagos State, Nigeria ·</span>
     </div>
   </div>
 </div>
-<div className="col-lg-3 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+{/* <div className="col-lg-3 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
   <div className="member">
     <img style={containerStyle} src="assets/img/unknow2.png" className="img-fluid" alt=""/>
     <div className="member-info">
@@ -189,7 +215,7 @@ Lagos State, Nigeria ·</span>
       </div>
     </div>
   </div>
-</div>
+</div> */}
           {/* <div className="col-lg-3 col-md-6 col-sm-6  wow fadeInUp" data-wow-delay="0.2s">
             <div className="member">
               <img style={containerStyle} src="assets/img/am.png" className="img-fluid" alt=""/>

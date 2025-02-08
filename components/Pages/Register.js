@@ -224,8 +224,9 @@ export default class Register extends Component {
     var summitDiscoveryMethod = event.target.SummitDiscoveryMethod.value;
 
     // fetch('https://localhost:3001/api/sendEmail',
-    fetch('https://takeoverbackend.onrender.com/api/sendEmail',
-     {
+    // fetch('https://takeoverbackend.onrender.com/api/sendEmail',
+      fetch('/api/sendemail',
+        {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
