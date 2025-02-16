@@ -97,12 +97,12 @@ const VideoComponent = () => {
           <VideoPlayerContainer>
           <div style={{ padding: '56.25% 0 0 0', position: 'relative' }}>
       <iframe
-        src="https://player.vimeo.com/video/929850554?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-        frameBorder="0"
+src="https://www.youtube.com/embed/kwGg7RDNxs0?si=MucnQHFJtNJD71Bp"        frameBorder="0"
         allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
         style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
         title="TOATS 2024"
       ></iframe>
+      {/* <iframe width="560" height="315" src="https://www.youtube.com/embed/kwGg7RDNxs0?si=MucnQHFJtNJD71Bp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> */}
     </div>
         {/* <video
           src='https://dev.gharvestisland.org/wp-content/uploads/2024/02/WhatsApp-Video-2024-02-11-at-22.30.34_485fad40.mp4'
